@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronit's Portfolio | RG</title>
+
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#3B82F6',secondary:'#8B5CF6'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+        /* Global Styles */
+        * {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Logo */
+        .logo {
+            font-family: 'Pacifico', cursive;
+            font-size: 2rem;
+            color: #3B82F6;
+            letter-spacing: 1px;
+        }
+
+        /* Icon Styling */
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+
+        /* Hero Background */
+        .hero-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+        }
+
+        /* Skill Bar */
+        .skill-bar {
+            height: 8px;
+            border-radius: 6px;
+            background: #e0e0e0;
+            overflow: hidden;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        .skill-bar span {
+            display: block;
+            height: 100%;
+            width: 0;
+            background: #3B82F6;
+            transition: width 1s ease-in-out;
+        }
+
+        /* Fade-in Animation */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Project Card */
+        .project-card {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+        }
+
+        /* Navigation Links */
+        .nav-link {
+            position: relative;
+            color: #1f2937;
+            font-weight: 500;
+            text-decoration: none;
+            padding: 0.5rem 0;
+            transition: color 0.3s ease;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #3B82F6;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #3B82F6;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            padding: 0.65rem 1.5rem;
+            background: #3B82F6;
+            color: #fff;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .button:hover {
+            background: #2563eb;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            padding: 2rem 0;
+            text-align: center;
+            background: #f9fafb;
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+
+        /* Misc Animations */
+        @keyframes popFade {
+            0% { opacity: 0; transform: scale(0.95); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+        .animate-pop {
+            animation: popFade 0.5s ease forwards;
+        }
+            </style>
+</head>
+<body class="bg-[#f8f9fb] text-gray-800 antialiased">
+
+
+    <header class="fixed top-0 w-full bg-white shadow-sm z-50">
+        <nav class="px-6 py-2">
+            <div class="flex items-center justify-between max-w-7xl mx-auto">
+                <div class="text-2xl font-bold text-primary font-['Inter']">Ronit Goswami</div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-primary">Home</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-primary">About</a>
+                    <a href="#skills" class="nav-link text-gray-700 hover:text-primary">Skills</a>
+                    <a href="#education" class="nav-link text-gray-700 hover:text-primary">Education</a>
+                    <a href="#projects" class="nav-link text-gray-700 hover:text-primary">Projects</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-primary">Contact</a>
+                </div>
+                <button id="downloadCV" class="bg-primary text-white px-4 py-1.5 !rounded-button hover:bg-blue-600 transition-all whitespace-nowrap text-sm">
+                    <div class="w-4 h-4 flex items-center justify-center inline-block mr-1.5">
+                        <i class="ri-download-line"></i>
+                    </div>
+                    Download CV
+                </button>
+                
+                <script>
+                document.getElementById('downloadCV').addEventListener('click', function() {
+                    const link = document.createElement('a');
+                    link.href = 'images/Ronit_Goswami_CV.pdf';
+                    link.download = 'Ronit_Goswami_CV.pdf';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                });
+                </script>
+                
+
+                <button class="md:hidden text-gray-700" id="mobile-menu-btn">
+                    <div class="w-6 h-6 flex items-center justify-center">
+                        <i class="ri-menu-line ri-xl"></i>
+                    </div>
+                </button>
+            </div>
+
+            <div class="md:hidden hidden" id="mobile-menu">
+                <div class="pt-4 pb-2 space-y-2">
+                    <a href="#home" class="block px-4 py-2 text-gray-700 hover:text-primary">Home</a>
+                    <a href="#about" class="block px-4 py-2 text-gray-700 hover:text-primary">About</a>
+                    <a href="#skills" class="block px-4 py-2 text-gray-700 hover:text-primary">Skills</a>
+                    <a href="#education" class="block px-4 py-2 text-gray-700 hover:text-primary">Education</a>
+                    <a href="#projects" class="block px-4 py-2 text-gray-700 hover:text-primary">Projects</a>
+                    <a href="#contact" class="block px-4 py-2 text-gray-700 hover:text-primary">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ==============Home section===================== -->
+
+    <section id="home" class="hero-bg min-h-screen flex items-center pt-16 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 w-full">
+            <div class="text-center text-white">
+                <!-- Heading -->
+                <h4 class="text-5xl md:text-6xl font-bold mb-6 fade-in animate-pop">
+                    Welcome to 
+                    <span class="logo">
+                        <span class="rg-creators" style = "font-size: 4.5rem;">RG's</span>
+                    </span>
+                    portfolio
+                </h4>
+                
+                <style>
+                    /* Logo font */
+                    .logo {
+                        font-family: 'Pacifico', cursive;
+                    }
+
+                    /* RG-Creators styled for blue background */
+                    .rg-creators {
+                        background: linear-gradient(90deg, #FACC15, #F87171); /* Yellow to Red gradient */
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        display: inline-block;
+                        font-size: inherit;
+                        transition: transform 0.3s ease, filter 0.3s ease;
+                        position: relative;
+                    }
+
+                    /* Hover pop effect */
+                    /* .rg-creators:hover {
+                        transform: scale(1.15) rotate(-2deg);
+                        filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
+                    } */
+
+                    /* Optional subtle shine animation */
+                    @keyframes shine {
+                        0% { background-position: -200px; }
+                        100% { background-position: 200px; }
+                    }
+
+                    .rg-creators {
+                        background-size: 400px 100%;
+                        animation: shine 5s linear infinite;
+                    }
+                </style>
+                
+    
+                <!-- Subheading -->
+                <p class="text-xl md:text-2xl mb-6 opacity-90 fade-in animate-pop" style="animation-delay: 0.2s;">
+                    BCA Final Year Student & Founder of RG-Creators Agency
+                </p>
+    
+                <!-- Description -->
+                <p class="text-lg mb-10 opacity-80 max-w-2xl mx-auto fade-in animate-pop" style="animation-delay: 0.4s;">
+                    Passionate about technology, innovation, and creating digital solutions that make a difference. Turning ideas into reality through code and creativity.
+                </p>
+    
+                <!-- Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in animate-pop" style="animation-delay: 0.6s;">
+                    <button onclick="window.location.href=('https://www.google.com');"
+                            class="bg-white text-primary px-8 py-3 rounded-lg hover:bg-gray-100 transition-all whitespace-nowrap font-semibold shadow-lg hover:shadow-xl">
+                            Visit Agency
+                    </button>
+                    <button onclick="window.location.href='mailto:rgcreatorsofficial@gmail.com';"
+                            class="border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-primary transition-all whitespace-nowrap font-semibold shadow-lg hover:shadow-xl">
+                            Get In Touch
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Optional animated background shapes for modern look -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
+            <div class="absolute bg-purple-500 opacity-20 rounded-full w-72 h-72 top-[-50px] left-[-50px] animate-pulse-slow"></div>
+            <div class="absolute bg-blue-400 opacity-20 rounded-full w-96 h-96 bottom-[-100px] right-[-100px] animate-pulse-slow"></div>
+        </div>
+    </section>
+    
+    <style>
+        /* Animation helpers */
+        @keyframes pulseSlow {
+            0%, 100% { transform: scale(1); opacity: 0.2; }
+            50% { transform: scale(1.2); opacity: 0.3; }
+        }
+        .animate-pulse-slow {
+            animation: pulseSlow 8s ease-in-out infinite;
+        }
+        
+        /* Pop-in fade animation */
+        .animate-pop {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: popFade 0.6s forwards;
+        }
+        @keyframes popFade {
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+
+    <!-- ================About Section========================= -->
+    
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 fade-in">About Me</h2>
+                <div class="w-20 h-1 bg-primary mx-auto fade-in"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-6">Founder & Visionary</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        As the founder of <strong>RG-Creators</strong> (also known as <strong>RG_Code_Craft</strong>), I fuse creativity with technology to build impactful digital solutions. With 5+ years of experience in web and app development, I’m dedicated to transforming ideas into functional and visually engaging realities.</p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        As a final-year <strong>BCA (Hons)</strong> student, I’m driven by the harmony of design, functionality, and innovation. My mission is to help brands and creators craft a digital presence that not only looks exceptional but also tells their unique story with purpose and impact.</p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Skilled in multiple programming languages including <strong>C, C++, Java, Python, PHP, HTML, CSS, JavaScript, R, MySQL, and phpMyAdmin</strong>, I continuously strive to stay ahead of emerging technologies. I believe in clean code, continuous learning, and a growth-driven mindset — principles that drive every project I undertake.
+                    </p>
+                </div>
+            
+                <div class="fade-in">
+                    <div class="bg-gradient-to-br from-primary to-secondary p-8 rounded-2xl text-white">
+                        <h4 class="text-xl font-semibold mb-6">Core Values</h4>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <div class="w-6 h-6 flex items-center justify-center mr-3">
+                                    <i class="ri-lightbulb-line"></i>
+                                </div>
+                                <span>Innovation & Creativity</span>
+                            </div>
+            
+                            <div class="flex items-center">
+                                <div class="w-6 h-6 flex items-center justify-center mr-3">
+                                    <i class="ri-code-line"></i>
+                                </div>
+                                <span>Technical Excellence</span>
+                            </div>
+            
+                            <div class="flex items-center">
+                                <div class="w-6 h-6 flex items-center justify-center mr-3">
+                                    <i class="ri-team-line"></i>
+                                </div>
+                                <span>Client-Centric Approach</span>
+                            </div>
+            
+                            <div class="flex items-center">
+                                <div class="w-6 h-6 flex items-center justify-center mr-3">
+                                    <i class="ri-rocket-line"></i>
+                                </div>
+                                <span>Continuous Learning</span>
+                            </div>
+            
+                            <!-- New Core Value #1 -->
+                            <div class="flex items-center">
+                                <div class="w-6 h-6 flex items-center justify-center mr-3">
+                                    <i class="ri-heart-line"></i>
+                                </div>
+                                <span>Passion & Dedication</span>
+                            </div>
+            
+                            <!-- New Core Value #2 -->
+                            <div class="flex items-center">
+                                <div class="w-6 h-6 flex items-center justify-center mr-3">
+                                    <i class="ri-global-line"></i>
+                                </div>
+                                <span>Integrity & Impact</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <!-- ==================Skills Section=============== -->
+
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 fade-in">Technical Skills</h2>
+                <div class="w-20 h-1 bg-primary mx-auto fade-in"></div>
+                <p class="text-gray-600 mt-6 fade-in">Expertise across multiple programming languages and technologies</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="fade-in">
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center mr-3 text-orange-500">
+                                    <i class="ri-code-line ri-lg"></i>
+                                </div>
+
+                                <span class="font-semibold text-gray-900">PHP</span>
+                            </div>
+            
+                            <span class="text-sm text-gray-600">90%</span>
+                        </div>
+            
+                        <div class="bg-gray-200 rounded-full h-2">
+                            <div class="skill-bar bg-orange-500 h-2 rounded-full" data-width="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fade-in">
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center mr-3 text-blue-600">
+                                    <i class="ri-terminal-line ri-lg"></i>
+                                </div>
+                                <span class="font-semibold text-gray-900">C/C++</span>
+                            </div>
+                            <span class="text-sm text-gray-600">85%</span>
+                        </div>
+                        
+                        <div class="bg-gray-200 rounded-full h-2">
+                            <div class="skill-bar bg-blue-600 h-2 rounded-full" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="fade-in">
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center mr-3 text-red-600">
+                                    <i class="ri-cup-line ri-lg"></i>
+                                </div>
+                                <span class="font-semibold text-gray-900">Java</span>
+                            </div>
+                            <span class="text-sm text-gray-600">80%</span>
+                        </div>
+
+                        <div class="bg-gray-200 rounded-full h-2">
+                            <div class="skill-bar bg-red-600 h-2 rounded-full" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="fade-in">
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center mr-3 text-orange-600">
+                                    <i class="ri-html5-line ri-lg"></i>
+                                </div>
+                                <span class="font-semibold text-gray-900">HTML/CSS</span>
+                            </div>
+            
+                            <span class="text-sm text-gray-600">95%</span>
+                        </div>
+                        <div class="bg-gray-200 rounded-full h-2">
+                            <div class="skill-bar bg-orange-600 h-2 rounded-full" data-width="95"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="fade-in">
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center mr-3 text-yellow-500">
+                                    <i class="ri-javascript-line ri-lg"></i>
+                                </div>
+                                <span class="font-semibold text-gray-900">JavaScript</span>
+                            </div>
+                            <span class="text-sm text-gray-600">88%</span>
+                        </div>
+                        <div class="bg-gray-200 rounded-full h-2">
+                            <div class="skill-bar bg-yellow-500 h-2 rounded-full" data-width="88"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="fade-in">
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center mr-3 text-blue-500">
+                                    <i class="ri-python-line ri-lg"></i>
+                                </div>
+                                <span class="font-semibold text-gray-900">Python</span>
+                            </div>
+                            <span class="text-sm text-gray-600">82%</span>
+                        </div>
+                        <div class="bg-gray-200 rounded-full h-2">
+                            <div class="skill-bar bg-blue-500 h-2 rounded-full" data-width="82"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="fade-in">
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center mr-3 text-purple-600">
+                                    <i class="ri-file-code-line ri-lg"></i>
+                                </div>
+                                <span class="font-semibold text-gray-900">R Programming</span>
+                            </div>
+                            <span class="text-sm text-gray-600">75%</span>
+                        </div>
+                        <div class="bg-gray-200 rounded-full h-2">
+                            <div class="skill-bar bg-purple-600 h-2 rounded-full" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="fade-in">
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center mr-3 text-green-600">
+                                    <i class="ri-database-line ri-lg"></i>
+                                </div>
+                                <span class="font-semibold text-gray-900">MySQL</span>
+                            </div>
+                            <span class="text-sm text-gray-600">87%</span>
+                        </div>
+                        <div class="bg-gray-200 rounded-full h-2">
+                            <div class="skill-bar bg-green-600 h-2 rounded-full" data-width="87"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================Education Section================= -->
+
+    <section id="education" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 fade-in">Education</h2>
+                <div class="w-20 h-1 bg-primary mx-auto fade-in"></div>
+                <p class="text-gray-600 mt-6 fade-in">Academic journey and achievements</p>
+            </div>
+                
+            <div class="space-y-8">
+                <div class="bg-gradient-to-r from-primary to-secondary p-8 rounded-2xl text-white fade-in">
+                    <div class="flex items-start justify-between flex-col md:flex-row">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-semibold mb-2">Bachelor of Computer Applications (BCA)</h3>
+                            <p class="text-lg opacity-90 mb-4">Final Year Student</p>
+                            <p class="opacity-80">Currently pursuing my final year in BCA Hons, specializing in software development, database management, and web technologies. Focusing on practical applications of computer science principles in real-world scenarios.</p>
+                        </div>
+                        
+                        <div class="mt-4 md:mt-0 md:ml-8">
+                            <div class="w-16 h-16 flex items-center justify-center bg-white bg-opacity-20 rounded-xl">
+                                <i class="ri-graduation-cap-line ri-2x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 p-8 rounded-xl fade-in">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 flex items-center justify-center bg-green-100 rounded-xl mr-4">
+                                <i class="ri-award-line ri-xl text-green-600"></i>
+                            </div>
+                        <div>
+                        
+                        <h3 class="text-xl font-semibold text-gray-900">Higher Secondary (12th)</h3>
+                        <p class="text-gray-600">Kendriya Vidyalaya Adra</p>
+                    </div>
+                </div>
+                    
+                <div class="flex justify-between items-center mb-3">
+                    <span class="text-gray-700 font-medium">Computer Science Stream</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">70%</span>
+                </div>
+                
+                    <p class="text-gray-600 text-sm">Specialized in Computer Science with focus on programming fundamentals, data structures, and mathematics.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl fade-in">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 flex items-center justify-center bg-blue-100 rounded-xl mr-4">
+                            <i class="ri-medal-line ri-xl text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Secondary (10th)</h3>
+                            <p class="text-gray-600">Kendriya Vidyalaya Adra</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex justify-between items-center mb-3">
+                        <span class="text-gray-700 font-medium">All Subjects</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">89%</span>
+                    </div>
+                        <p class="text-gray-600 text-sm">Strong foundation in mathematics, science, and computer applications with excellent academic performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================Projects Section====================== -->
+    
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 fade-in">Featured Projects</h2>
+                <div class="w-20 h-1 bg-primary mx-auto fade-in"></div>
+                <p class="text-gray-600 mt-6 fade-in">Showcasing innovative solutions and creative implementations</p>
+            </div>
+        
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Restaurant Website -->
+                <div class="project-card bg-white rounded-xl shadow-sm overflow-hidden cursor-pointer fade-in" onclick="window.open('https://yourrestaurantprojectlink.com', '_blank')">
+                    <div class="h-48 bg-cover bg-center object-top" 
+                         style="background-image: url('images/restaurant_web.png');">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Restaurant Website</h3>
+                        <p class="text-gray-600 mb-4">Elegant and responsive restaurant website with menu showcase, online booking, and dynamic gallery. Fully secure backend with PHP & MySQL integration.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">HTML/CSS</span>
+                            <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">JavaScript</span>
+                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP/MySQL</span>
+                        </div>
+                        <div class="flex items-center text-primary">
+                            <span class="text-sm font-medium">View Project</span>
+                            <div class="w-4 h-4 flex items-center justify-center ml-2">
+                                <i class="ri-external-link-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Yacht Booking Website -->
+                <div class="project-card bg-white rounded-xl shadow-sm overflow-hidden cursor-pointer fade-in" onclick="window.open('https://youryachtprojectlink.com', '_blank')">
+                    <div class="h-48 bg-cover bg-center object-top" 
+                         style="background-image: url('images/yatch_web.png');">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Yacht Booking Website</h3>
+                        <p class="text-gray-600 mb-4">Luxury yacht booking system with dynamic pricing, secure payment integration, and interactive booking dashboard. Built for performance and safety.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP</span>
+                            <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">MySQL</span>
+                            <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">JavaScript</span>
+                        </div>
+                        <div class="flex items-center text-primary">
+                            <span class="text-sm font-medium">View Project</span>
+                            <div class="w-4 h-4 flex items-center justify-center ml-2">
+                                <i class="ri-external-link-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Food Delivery App -->
+                <div class="project-card bg-white rounded-xl shadow-sm overflow-hidden cursor-pointer fade-in" onclick="window.open('https://yourfooddeliveryapp.com', '_blank')">
+                    <div class="h-48 bg-cover bg-center object-top" 
+                         style="background-image: url('images/foodapp_web.png');">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Food Delivery App</h3>
+                        <p class="text-gray-600 mb-4">Dynamic web-based food ordering platform with live order tracking, admin control panel, and payment gateway integration. 100% secure and scalable.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">HTML/CSS</span>
+                            <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">JavaScript</span>
+                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP/MySQL</span>
+                        </div>
+                        <div class="flex items-center text-primary">
+                            <span class="text-sm font-medium">View Project</span>
+                            <div class="w-4 h-4 flex items-center justify-center ml-2">
+                                <i class="ri-external-link-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- School Website -->
+                <div class="project-card bg-white rounded-xl shadow-sm overflow-hidden cursor-pointer fade-in" onclick="window.open('https://yourschoolwebsite.com', '_blank')">
+                    <div class="h-48 bg-cover bg-center object-top" 
+                         style="background-image: url('images/school_web.png');">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">School Website</h3>
+                        <p class="text-gray-600 mb-4">Fully responsive school management and information portal. Includes attendance tracking, grade management, and a secure admin dashboard.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP</span>
+                            <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">MySQL</span>
+                            <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">JavaScript</span>
+                        </div>
+                        <div class="flex items-center text-primary">
+                            <span class="text-sm font-medium">View Project</span>
+                            <div class="w-4 h-4 flex items-center justify-center ml-2">
+                                <i class="ri-external-link-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Uttarakhand Travel Website -->
+                <div class="project-card bg-white rounded-xl shadow-sm overflow-hidden cursor-pointer fade-in" onclick="window.open('https://uttarakhandtravelproject.com', '_blank')">
+                    <div class="h-48 bg-cover bg-center object-top" 
+                         style="background-image: url('images/travel_web.png');">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Uttarakhand Travel Website</h3>
+                        <p class="text-gray-600 mb-4">Travel website featuring destinations, packages, and custom itineraries. Built for high performance and security with PHP and MySQL backend.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">HTML/CSS</span>
+                            <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">JavaScript</span>
+                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">PHP/MySQL</span>
+                        </div>
+                        <div class="flex items-center text-primary">
+                            <span class="text-sm font-medium">View Project</span>
+                            <div class="w-4 h-4 flex items-center justify-center ml-2">
+                                <i class="ri-external-link-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Tech Startup Website -->
+                <div class="project-card bg-white rounded-xl shadow-sm overflow-hidden cursor-pointer fade-in" onclick="window.open('https://yourstartupwebsite.com', '_blank')">
+                    <div class="h-48 bg-cover bg-center object-top" 
+                         style="background-image: url('images/tech_web.png');">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Tech Startup Website</h3>
+                        <p class="text-gray-600 mb-4">Modern and secure website for a tech startup, featuring services, team, and contact sections. Built with clean code and full backend security measures.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">HTML/CSS</span>
+                            <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">JavaScript</span>
+                            <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">PHP/MySQL</span>
+                        </div>
+                        <div class="flex items-center text-primary">
+                            <span class="text-sm font-medium">View Project</span>
+                            <div class="w-4 h-4 flex items-center justify-center ml-2">
+                                <i class="ri-external-link-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ===============Footer Section=============== -->
+
+    <footer id="contact" class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="fade-in">
+                    <div class="logo text-3xl font-bold text-primary mb-4">RG-Creators</div>
+                        <p class="text-gray-300 mb-6">Transforming ideas into digital reality through innovative technology solutions and creative excellence.</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+        
+                            <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                                <i class="ri-github-fill"></i>
+                            </a>
+        
+                            <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+        
+                            <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="fade-in">
+                        <h3 class="text-xl font-semibold mb-6">Quick Links</h3>
+                        <div class="space-y-3">
+                            <a href="#home" class="block text-gray-300 hover:text-primary transition-colors">Home</a>
+                            <a href="#about" class="block text-gray-300 hover:text-primary transition-colors">About</a>
+                            <a href="#skills" class="block text-gray-300 hover:text-primary transition-colors">Skills</a>
+                            <a href="#education" class="block text-gray-300 hover:text-primary transition-colors">Education</a>
+                            <a href="#projects" class="block text-gray-300 hover:text-primary transition-colors">Projects</a>
+                        </div>
+                    </div>
+        
+                    <div class="fade-in">
+                        <h3 class="text-xl font-semibold mb-6">Get In Touch</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                    <i class="ri-mail-line"></i>
+                                </div>
+                                <span class="text-gray-300">rgcreatorsofficial@gmail.com</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                    <i class="ri-phone-line"></i>
+                                </div>
+                                <span class="text-gray-300">+91 7501522018</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                    <i class="ri-map-pin-line"></i>
+                                </div>
+                                <span class="text-gray-300">Kolkata, West Bengal, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+                    <p class="text-gray-400">&copy; 2024 RG-Creators. All rights reserved. Designed & Developed with ❤️</p>
+                </div>
+        </div>
+    </footer>
+    
+    
+    <script id="mobile-menu-toggle">
+        document.addEventListener('DOMContentLoaded', function() {
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+    });
+    </script>
+
+    <script id="smooth-scroll">
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href^="#"]');
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script id="scroll-animations">
+        document.addEventListener('DOMContentLoaded', function() {
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, observerOptions);
+            document.querySelectorAll('.fade-in').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+
+    <script id="skill-bars-animation">
+        document.addEventListener('DOMContentLoaded', function() {
+            const skillBars = document.querySelectorAll('.skill-bar');
+            const skillObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const bar = entry.target;
+                        const width = bar.getAttribute('data-width');
+                        setTimeout(() => {
+                            bar.style.width = width + '%';
+                        }, 200);
+                    }
+                });
+            }, { threshold: 0.5 });
+            skillBars.forEach(bar => {
+                bar.style.width = '0%';
+                skillObserver.observe(bar);
+            });
+        });
+    </script>   
+</body>
+</html>
