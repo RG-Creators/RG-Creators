@@ -15,8 +15,8 @@
     <a href="https://rgcreators.netlify.app/" target="_blank">
       <img src="https://img.shields.io/badge/Portfolio-rgcreators.netlify.app-7457DC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
     </a>
-    <a href="mailto:kcsronit@gmail.com">
-      <img src="https://img.shields.io/badge/Email-kcsronit%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <a href="mailto:rgcreatorsofficial@gmail.com">
+      <img src="https://img.shields.io/badge/Email-rgcreatorsofficial%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://github.com/RG-Creators">
       <img src="https://img.shields.io/badge/GitHub-RG--Creators-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
@@ -40,7 +40,7 @@ Beyond academia, I have architected and deployed **3 commercial client solutions
 - 🎓 **Education**: BCA (Honours), Kingston College of Science (WBSU) &middot; Expected Graduation: 2027
 - 🏫 **Schooling**: Kendriya Vidyalaya Adra (Class X: 89%, Class XII: 64%)
 - 🌐 **Live Portfolio**: [rgcreators.netlify.app](https://rgcreators.netlify.app/)
-- 📬 **Direct Contact**: [kcsronit@gmail.com](mailto:kcsronit@gmail.com)
+- 📬 **Direct Contact**: [rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)
 - 💼 **Primary Domains**: Multi-Tenant SaaS, Point-of-Sale (POS) Engines, Restaurant Management Systems (RMS), Real-Time Hardware Bridges, Financial Client Portals.
 
 ---
@@ -202,8 +202,8 @@ A commercial-grade multi-tenant restaurant management SaaS engineered for scalab
     <img src="https://img.shields.io/badge/Live_Portfolio-rgcreators.netlify.app-7457DC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
   </a>
   &nbsp;
-  <a href="mailto:kcsronit@gmail.com">
-    <img src="https://img.shields.io/badge/Email-kcsronit%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:rgcreatorsofficial@gmail.com">
+    <img src="https://img.shields.io/badge/Email-rgcreatorsofficial%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
   <a href="https://github.com/RG-Creators">
