@@ -13,10 +13,10 @@
   <!-- Verified Badges & Contact Anchors -->
   <p align="center">
     <a href="https://rgcreators.netlify.app" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-rgcreators.netlify.app-7457DC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+      <img src="https://img.shields.io/badge/Official_Portfolio-rgcreators.netlify.app-7457DC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
     </a>
     <a href="mailto:rgcreatorsofficial@gmail.com">
-      <img src="https://img.shields.io/badge/Email-rgcreatorsofficial%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/Direct_Email-rgcreatorsofficial%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://github.com/RG-Creators">
       <img src="https://img.shields.io/badge/GitHub-RG--Creators-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
@@ -52,7 +52,7 @@ Beyond academia, I have architected and deployed **multiple commercial client so
   - Multi-tenant database tenancy isolation supporting multi-outlet restaurant chains with zero cross-tenant contamination.
   - **Parallel 3-Printer Dispatch Engine**: Dispatches split thermal receipts simultaneously across `BKOT` (Bar KOT), `KKOT` (Kitchen KOT), and `BILL` (Customer Invoice) over Bluetooth BLE, USB OTG, and TCP/IP LAN Socket (Port 9100).
   - Commission-free direct customer QR table ordering and digital payment settlements.
-  - Real-time table occupancy status, inventory depletion ledger, staff QR biometric attendance, and automated payroll ledger.
+  - Real-time table occupancy status, inventory depletion ledger, staff QR biometric attendance, and automated payroll calculations.
 
 #### 2. ☕ Visti Cafe & Restaurant — Production POS & Online Ordering Platform
 - **Public Showcase Repository**: [`RG-Creators/visti-cafe-pos-showcase`](https://github.com/RG-Creators/visti-cafe-pos-showcase)
@@ -66,40 +66,48 @@ Beyond academia, I have architected and deployed **multiple commercial client so
 
 ---
 
-### 💼 Commercial Software Solutions & Proprietary IP Catalog (Available for Acquisition)
+### 💼 Commercial SaaS Platforms & Proprietary IP (Available for Acquisition)
 
 > [!IMPORTANT]
 > **Commercial Intellectual Property Notice & Full Source Code Acquisition:**
-> The following battle-tested, production-ready software solutions are held as **proprietary commercial IP in private repositories**. They are available for **complete source code buyout, commercial acquisition, or white-label enterprise licensing** tailored to your business needs.
+> The following commercial software platforms are maintained as **proprietary enterprise codebases in private repositories**. They are available for **complete source code buyout, commercial acquisition, or white-label enterprise deployment**.
 > 
-> **Each Acquisition Package Includes:**
-> - Complete Git Repository with Full Commit History & Architectural Documentation
-> - Normalized Production Relational Database Schemas, Migrations & Complete Seeders
+> **Every Acquisition Package Includes:**
+> - Full Git Repository with Complete Commit History & Architecture Documentation
+> - Normalized Production MySQL Schemas, Migrations & Complete Seeders
 > - Postman / Thunder Client API Test Collections & Integration Contracts
 > - Production Deployment Runbooks (Docker / Nginx / Apache / SSL)
 > - **30 Days of Dedicated Technical Handover & Integration Support** by Lead Architect Ronit Goswami
 > 
 > *To request private repository access, a live architectural walkthrough, or negotiate buyout terms, contact **[rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)**.*
 
-| Software Solution | Vertical / Domain | Tech Stack | Estimated Valuation (INR) | Buyout Rights | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Saloon & Spa Booking Platform** | Salon, Spa & Wellness Chains | Laravel 11 • Flutter (Customer + Owner) • MySQL | **₹65,000 – ₹95,000** | Full IP Buyout: ₹1,25,000 | `Private IP / Available` |
-| **Hospital Core RMS** | Hospitals, Clinics & Healthcare EMR | PHP 8.2+ • MySQL • Multi-Role RBAC | **₹75,000 – ₹1,20,000** | Full IP Buyout: ₹1,60,000 | `Private IP / Available` |
-| **Editorial Maison E-Commerce** | Luxury Fashion & Retail | Laravel 11 • Tailwind CSS • Razorpay | **₹45,000 – ₹70,000** | Full IP Buyout: ₹95,000 | `Private IP / Available` |
-| **Enterprise HRMS & Payroll Suite** | Corporate HR & Workforce Ops | REST API • Vanilla JS • MySQL • Payroll Models | **₹50,000 – ₹80,000** | Full IP Buyout: ₹1,10,000 | `Private IP / Available` |
-| **Smart Attendance System SaaS** | Universities & Corporate Campuses | Multi-Tenant PHP • QR Engine • MySQL | **₹40,000 – ₹65,000** | Full IP Buyout: ₹85,000 | `Private IP / Available` |
-| **BlenderHub LMS & Asset Store** | 3D EdTech & Asset Marketplace | Core PHP • WebGL • DRM Pipelines • MySQL | **₹50,000 – ₹80,000** | Full IP Buyout: ₹1,05,000 | `Private IP / Available` |
-| **ConvoManage Event Suite** | Conferences & Secure Summits | AES-128 Encryption • WebSockets • PHP | **₹35,000 – ₹55,000** | Full IP Buyout: ₹75,000 | `Private IP / Available` |
-| **OTP Auth & Esports Portal** | Gaming & Multi-Channel Auth | PHPMailer • WhatsApp API • MySQL | **₹35,000 – ₹60,000** | Full IP Buyout: ₹80,000 | `Private IP / Available` |
-| **Atomic QR Voucher Engine** | Retail Campaigns & Loyalty | Tailwind CSS • HTML5 QR • Atomic Transactions | **₹25,000 – ₹45,000** | Full IP Buyout: ₹60,000 | `Private IP / Available` |
-| **Instant Dynamic UPI Gateway** | FinTech & Digital Payments | Dynamic UPI QR • Intent Dispatch • Webhooks | **₹30,000 – ₹55,000** | Full IP Buyout: ₹75,000 | `Private IP / Available` |
-| **DevPulse AI Intelligence Suite** | DevSecOps & AI Code Review | Python • LLM Orchestration • CI/CD Scanners | **₹55,000 – ₹90,000** | Full IP Buyout: ₹1,25,000 | `Private IP / Available` |
-| **SoundBridge Audio Streamer** | Synchronized Audio Streaming | WebAudio • Sub-10ms Clock Sync • PWA | **₹25,000 – ₹45,000** | Full IP Buyout: ₹60,000 | `Private IP / Available` |
-| **Competitive Exam TestKit** | Govt & Railway Exam Prep | CBT Exam Engine • NTA Simulator • JSON Bank | **₹30,000 – ₹50,000** | Full IP Buyout: ₹65,000 | `Private IP / Available` |
-| **Meteorological Weather Hub** | Weather & Agri-Intelligence | Multi-Provider Fallback • Radar Maps • PWA | **₹15,000 – ₹25,000** | Full IP Buyout: ₹35,000 | `Private IP / Available` |
-| **Enterprise Task Workflow Suite** | Team Task & Project Tracking | Drag-Drop Kanban • Natural Language • CRDT | **₹15,000 – ₹25,000** | Full IP Buyout: ₹35,000 | `Private IP / Available` |
-| **Developer Portfolio Engine** | Creative Branding & Showcases | HTML5 • CSS3 Grid • Lead Capture Engine | **₹15,000 – ₹25,000** | Full IP Buyout: ₹35,000 | `Private IP / Available` |
-| **Modular Enterprise SaaS Core** | SaaS Scaffolding & Starters | Modular PHP • RBAC • Multi-Tenant DB | **₹15,000 – ₹25,000** | Full IP Buyout: ₹35,000 | `Private IP / Available` |
+| Commercial Platform | Vertical / Domain | Core Architecture & Tech Stack | Licensing & Acquisition Options | Showcase Link |
+| :--- | :--- | :--- | :--- | :--- |
+| **Multi-Tenant Cloud POS & RMS** | Hospitality, Cafes & Multi-Outlet Chains | Laravel 11 • Flutter • 3-Printer ESC/POS Socket Bridge (Port 9100) • QR Ordering | • Annual White-Label License<br>• Full Proprietary Source Code Buyout | [Showcase Docs](https://github.com/RG-Creators/cloud-pos-saas-showcase) |
+| **Smart Attendance System SaaS** | Universities, Colleges & Multi-Branch Corporates | Core PHP 8.2+ • Multi-Tenant RBAC • Branch Geofencing • Shift/Break Engine | • Organization Multi-Tenant License<br>• Full Proprietary Source Code Buyout | [Showcase Docs](https://github.com/RG-Creators/smart-attendance-system-showcase) |
+| **BlenderHub LMS & Asset Store** | 3D Graphics EdTech & Digital Asset Marketplace | Core PHP • WebGL / Blender Pipeline • Creator Monetization • SharePay OTP | • Marketplace Enterprise License<br>• Full Proprietary Source Code Buyout | [Showcase Docs](https://github.com/RG-Creators/blenderhub-lms-showcase) |
+| **Visti Cafe Hospitality Suite** | Quick Service Restaurants & Dine-In Dining | Full-Stack Laravel • Android Flutter POS • Live Online Ordering • Kitchen Routing | • Turnkey Restaurant Deployment<br>• Full Source Code Acquisition | [Showcase Docs](https://github.com/RG-Creators/visti-cafe-pos-showcase) |
+| **Mehta Prime Financial Portal** | Wealth Advisory, FinTech & Loan Distribution | Laravel 11 • Dynamic CMS • Real-Time Inquiry CRM • Automated Lead Routing | • Custom Advisory CMS Deployment<br>• Full Source Code Acquisition | [Showcase Docs](https://github.com/RG-Creators/mehtaprimecapital-showcase) |
+
+---
+
+### 🌟 Open-Source Developer Repositories (Free to Clone, Star & Contribute)
+
+> [!TIP]
+> **Community Notice:**
+> All repositories below are **100% open-source and free for developers** to clone, study, fork, and build upon.
+> 
+> ⭐ **If any of these codebases helped you learn, solve a production challenge, or build an app, please drop a Star on GitHub! Your support helps these tools reach more developers.**
+
+| Project Repository | Focus Area | Architecture Highlights | Badges & Quick Links |
+| :--- | :--- | :--- | :--- |
+| [**human-resource-management-system**](https://github.com/RG-Creators/human-resource-management-system) | Enterprise HRMS & Workforce Suite | RESTful API dispatcher, role-based access control, attendance clocking, leave lifecycle approval workflows, and automated payroll ledger calculations. | ![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square&logo=php&logoColor=white) ![REST](https://img.shields.io/badge/REST-API-0052CC?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/human-resource-management-system?style=social)](https://github.com/RG-Creators/human-resource-management-system) |
+| [**maison-editorial-ecommerce**](https://github.com/RG-Creators/maison-editorial-ecommerce) | Luxury High-Fashion E-Commerce | Laravel 11, Tailwind CSS 3.4, Razorpay payment gateway integration, dynamic cart, wishlist, order tracking ledger, and administrative audit logging. | ![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/maison-editorial-ecommerce?style=social)](https://github.com/RG-Creators/maison-editorial-ecommerce) |
+| [**hospital-core-rms**](https://github.com/RG-Creators/hospital-core-rms) | Clinical EMR & Inpatient Management | Multi-role Patient, Doctor, and Admin clinical operations suite with appointment booking, medical history timelines, and doctor specialization matching. | ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/hospital-core-rms?style=social)](https://github.com/RG-Creators/hospital-core-rms) |
+| [**qr-voucher-redemption-engine**](https://github.com/RG-Creators/qr-voucher-redemption-engine) | Retail Vouchers & Access Control | Real-time WebCam QR scanner (`html5-qrcode`), SHA-256 voucher tokens, atomic database anti-double-spend locks, and cashier manual lookup fallback. | ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![QR](https://img.shields.io/badge/QR-Scanner-indigo?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/qr-voucher-redemption-engine?style=social)](https://github.com/RG-Creators/qr-voucher-redemption-engine) |
+| [**instant-upi-payment-gateway**](https://github.com/RG-Creators/instant-upi-payment-gateway) | Dynamic UPI Payments & FinTech | Client-side dynamic UPI QR code generator, customer UTR transaction submission pipeline, and atomic admin verification ledger with zero framework bloat. | ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square) ![FinTech](https://img.shields.io/badge/UPI-Gateway-green?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/instant-upi-payment-gateway?style=social)](https://github.com/RG-Creators/instant-upi-payment-gateway) |
+| [**convomanage-event-suite**](https://github.com/RG-Creators/convomanage-event-suite) | End-to-End Encrypted Conferencing | Symmetric OpenSSL AES-128-CTR in-memory message encryption, dynamic 6-digit conference join codes, and responsive collaborative breakout chat rooms. | ![Security](https://img.shields.io/badge/OpenSSL-AES--128-blueviolet?style=flat-square) ![Chat](https://img.shields.io/badge/Real--Time-Chat-blue?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/convomanage-event-suite?style=social)](https://github.com/RG-Creators/convomanage-event-suite) |
+| [**otp-auth-tournament-portal**](https://github.com/RG-Creators/otp-auth-tournament-portal) | Cryptographic OTP & Esports Hub | Time-sensitive 6-digit OTP verification via PHPMailer SMTP, session re-generation security, competitive esports team roster registration, and tournaments. | ![Auth](https://img.shields.io/badge/OTP-Auth-orange?style=flat-square) ![Esports](https://img.shields.io/badge/Esports-Platform-red?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/otp-auth-tournament-portal?style=social)](https://github.com/RG-Creators/otp-auth-tournament-portal) |
 
 ---
 
@@ -144,17 +152,23 @@ My engineering standard adheres to high reliability, local-first offline resilie
 +-----------------------------------------------------------------------------------------+
 ```
 
+#### Core Engineering Principles I Stand By:
+1. **ACID Transaction Boundaries**: Crucial state updates (payment approvals, voucher redemptions, table order submissions) are strictly executed inside atomic database transactions (`begin_transaction()` $\rightarrow$ `commit()` / `rollback()`) with pessimistic row locking (`FOR UPDATE`) to prevent race conditions.
+2. **Local-First & Hardware Resilience**: In retail and restaurant environments, internet interruptions are inevitable. POS architectures are designed with offline caching and asynchronous hardware queue retries over TCP/IP Socket Port 9100, Bluetooth BLE, and USB OTG.
+3. **Zero-Trust Security Baseline**: Every query is 100% parameterized with PDO/Prepared Statements (eliminating SQL injection). Passwords utilize adaptive `PASSWORD_BCRYPT` with transparent rehashing. POST routes enforce cryptographic CSRF validation.
+4. **Clean Domain Boundaries**: Separation of concerns between single-entrypoint REST dispatchers, domain business logic, and isolated relational models.
+
 ---
 
 ### 🛠️ Technical Competency Matrix
 
-| Domain | Technologies, Languages & Tools |
-|:---|:---|
-| **Backend & SaaS Architecture** | **PHP 8.2+ / 8.3**, **Laravel 11 / 12**, **Eloquent ORM**, MVC Architecture, RESTful API Engineering, Multi-Tenant Database Design, Session Security & CSRF Protection |
-| **Frontend & UI Engineering** | **Tailwind CSS 3.4**, **Bootstrap 5.3**, JavaScript (ES6+ Vanilla, Fetch API), Blade Templating, HTML5 / Semantic Web, CSS3 Grid & Flexbox, Glassmorphism UI |
+| Domain | Technologies, Languages & Frameworks |
+| :--- | :--- |
+| **Backend & Architecture** | **PHP 8.2+ / 8.3**, **Laravel 11 / 12**, **Eloquent ORM**, MVC Pattern, RESTful API Design, Multi-Tenant Partitioning, Session Security, CSRF Protection |
+| **Frontend & UI Engineering** | **Tailwind CSS 3.4**, **Bootstrap 5.3**, JavaScript (ES6+ Vanilla, Fetch API), Blade Templating, HTML5 / Canvas, CSS3 Grid & Flexbox, Glassmorphism UI |
 | **Mobile & Hardware IoT** | **Flutter / Dart**, **ESC/POS 80mm Thermal Printing**, Raw ByteStream Generation, Bluetooth BLE, TCP/IP Socket (Port 9100), Android USB OTG, Split KOT Routing |
-| **Database & Relational Modeling** | **MySQL 8.0 / 9.0**, **Oracle PL/SQL** (Stored Procedures, Triggers, Cursors), SQLite, Normalized Data Architectures, Composite B-Tree Index Optimization |
-| **DevOps, Cloud & Operations** | Linux / Ubuntu, Hostinger hPanel, Apache, LiteSpeed, Nginx, Git, **GitHub Actions CI/CD**, SSL/TLS Certificates, Postman, Composer, WAMP / XAMPP |
+| **Database & Relational Modeling** | **MySQL 8.0 / 9.0**, **Oracle PL/SQL** (Procedures, Triggers, Cursors), SQLite, Normalized Relational Schemas, Composite B-Tree Index Optimization |
+| **DevOps, Cloud & Tooling** | Linux / Ubuntu, Hostinger hPanel, Apache, LiteSpeed, Nginx, Git, **GitHub Actions CI/CD**, SSL/TLS Certificates, Postman, Composer, WAMP / XAMPP |
 
 ---
 
