@@ -5,7 +5,7 @@
 
   <!-- Animated Typing Subtitle -->
   <a href="https://rgcreators.netlify.app" target="_blank">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=34D399&center=true&vCenter=true&width=780&lines=Full-Stack+Systems+Architect+%26+SaaS+Builder;Laravel+11%2F12+%E2%80%A2+Core+PHP+8.2%2B+%E2%80%A2+Flutter+%E2%80%A2+MySQL;Architect+of+Multi-Tenant+Cloud+POS+%26+RMS+Hospitality+OS;Parallel+3-Printer+Hardware+Bridge+(BKOT%2FKKOT%2FBILL);Deployed+3%2B+Commercial+Production+SaaS+Flagships;High-Concurrency+Systems+%E2%80%A2+Offline-Ready+Local-First+Bridges;Proprietary+Software+IP+Catalog+Available+for+Acquisition" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=34D399&center=true&vCenter=true&width=780&lines=Full-Stack+Systems+Architect+%26+SaaS+Builder;Laravel+11%2F12+%E2%80%A2+Core+PHP+8.2%2B+%E2%80%A2+Flutter+%E2%80%A2+MySQL;Architect+of+Multi-Tenant+Cloud+POS+%26+RMS+Hospitality+OS;Parallel+3-Printer+Hardware+Bridge+(BKOT%2FKKOT%2FBILL);Deployed+3%2B+Commercial+Production+SaaS+Flagships;High-Concurrency+Systems+%E2%80%A2+Offline-Ready+Local-First+Bridges;Open-Source+Contributor+%26+Community+Builder" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -39,19 +39,19 @@ Beyond academia, I have architected and deployed **multiple commercial client so
 - 📍 **Location**: Kolkata, West Bengal, India
 - 🎓 **Education**: BCA (Honours), Kingston College of Science (WBSU) — Expected 2027
 - 🌐 **Official Portfolio**: [rgcreators.netlify.app](https://rgcreators.netlify.app)
-- ✉️ **Direct Commercial Inquiries**: [rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)
+- ✉️ **Direct Inquiries**: [rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)
 - 🚀 **Primary Specializations**: Multi-Tenant SaaS, Point-of-Sale (POS) & Restaurant Management (RMS), Hardware ESC/POS Integration, E-Commerce Architectures, EMR/Clinical Systems.
 
 ---
 
-### 🚀 Public Production Flagships & Live Showcases
+### 🚀 Enterprise Production Flagships & Architectural Showcases
 
-These live deployments and public showcase repositories demonstrate verified production code quality, architectural documentation, and live client implementations:
+These live deployments and architectural showcase repositories demonstrate verified production code quality, system designs, and live client implementations:
 
 #### 1. 🍽️ Multi-Tenant Cloud POS & Restaurant Management SaaS (RMS OS)
 - **Public Showcase Repository**: [`RG-Creators/cloud-pos-saas-showcase`](https://github.com/RG-Creators/cloud-pos-saas-showcase)
 - **Core Architecture & Capabilities**:
-  - Multi-tenant database tenancy isolation supporting multi-outlet restaurant chains with zero cross-tenant contamination.
+  - Multi-tenant database tenancy isolation supporting multi-outlet restaurant chains with zero cross-tenant data leakage.
   - **Parallel 3-Printer Dispatch Engine**: Dispatches split thermal receipts simultaneously across `BKOT` (Bar KOT), `KKOT` (Kitchen KOT), and `BILL` (Customer Invoice) over Bluetooth BLE, USB OTG, and TCP/IP LAN Socket (Port 9100).
   - Commission-free direct customer QR table ordering and digital payment settlements.
   - Real-time table occupancy status, inventory depletion ledger, staff QR biometric attendance, and automated payroll calculations.
@@ -66,38 +66,40 @@ These live deployments and public showcase repositories demonstrate verified pro
 - **Live Production URL**: [mehtaprimecapital.in](https://mehtaprimecapital.in)
 - Full-stack Laravel 11 dynamic portal and administrative lead management CRM for financial planning, loan underwriting advisory, and real-time client inquiry tracking.
 
+#### 4. 💈 Saloon & Spa Booking Platform — Multi-Tenant Booking Engine
+- **Public Showcase Repository**: [`RG-Creators/saloon-booking-showcase`](https://github.com/RG-Creators/saloon-booking-showcase)
+- **Tech Stack**: Laravel 11 • Flutter Mobile (Customer) • Flutter Mobile (Owner) • MySQL 8.0+
+- Multi-outlet appointment scheduling, real-time barber chair availability, automated service invoicing, and customer push notifications.
+
+#### 5. 🏢 Smart Attendance System SaaS — Institutional & Corporate Workforce Engine
+- **Public Showcase Repository**: [`RG-Creators/smart-attendance-system-showcase`](https://github.com/RG-Creators/smart-attendance-system-showcase)
+- **Tech Stack**: Core PHP 8.2+ • Multi-Tenant RBAC • MySQL • Session Hardening
+- Geofenced attendance clock-in, flexible shift and break computation engines, multi-branch department segregation, and exportable payroll attendance sheets.
+
+#### 6. 🎨 BlenderHub LMS & 3D Asset Store — EdTech & Digital Asset Platform
+- **Public Showcase Repository**: [`RG-Creators/blenderhub-lms-showcase`](https://github.com/RG-Creators/blenderhub-lms-showcase)
+- **Tech Stack**: Core PHP 8.2+ • WebGL/Three.js • MySQL • Digital Rights Management
+- Video course curriculum management, 3D model asset distribution pipeline, verified creator payouts, and integrated secure checkout.
+
+#### 7. 👗 Editorial Maison — High-Fashion Luxury E-Commerce Platform
+- **Public Showcase Repository**: [`RG-Creators/maison-editorial-ecommerce-showcase`](https://github.com/RG-Creators/maison-editorial-ecommerce-showcase)
+- **Tech Stack**: Laravel 11 • Tailwind CSS 3.4 • Razorpay Gateway • MySQL
+- Editorial luxury catalog layout, dynamic product variant matrices (color, size, SKU), persistent session cart & wishlist, and order status tracking.
+
 ---
 
-### 💼 Commercial Software Solutions & Proprietary IP Catalog (Available for Acquisition)
+### 🌐 Open-Source Community Projects & Production Blueprints
 
-> [!IMPORTANT]
-> **Commercial Intellectual Property Notice & Full Source Code Acquisition:**
-> The following production-hardened software solutions are maintained as **proprietary commercial IP in private repositories**. They are available for **complete source code buyout, commercial acquisition, or white-label enterprise deployment**.
-> 
-> **Every Acquisition Package Includes:**
-> - Complete Git Repository with Full Commit History & Architecture Documentation
-> - Normalized Production MySQL Schemas, Migrations & Complete Seeders
-> - Postman / Thunder Client API Test Collections & Integration Contracts
-> - Production Deployment Runbooks (Docker / Nginx / Apache / SSL)
-> - **30 Days of Dedicated Technical Handover & Integration Support** by Lead Architect Ronit Goswami
-> 
-> *To request private repository access, a live architectural walkthrough, or negotiate buyout terms, contact **[rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)**.*
+The following projects are **100% Free and Open-Source under the permissive MIT License**. Built to enterprise coding standards, thoroughly tested, and ready for community adoption, learning, or self-hosted deployment:
 
-| Software Solution | Vertical / Domain | Tech Stack & Architecture Highlights | Commercial Valuation (INR) | Acquisition Rights | Direct Access / Status |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Cloud POS & RMS Hospitality SaaS** | Cafes, Restaurants & Multi-Outlet Chains | Laravel 11 • Flutter • 3-Printer ESC/POS Socket (Port 9100) • QR Ordering | **₹1,20,000 – ₹1,80,000** | Full IP Buyout: ₹2,50,000 | [View Public Showcase](https://github.com/RG-Creators/cloud-pos-saas-showcase) |
-| **Visti Cafe Hospitality Suite** | Quick Service Restaurants & Dining | Full-Stack Laravel • Android Flutter POS • Live Ordering • Kitchen Routing | **₹80,000 – ₹1,20,000** | Full IP Buyout: ₹1,50,000 | [View Public Showcase](https://github.com/RG-Creators/visti-cafe-pos-showcase) |
-| **Mehta Prime Financial Portal** | Wealth Advisory & Loan CRM | Laravel 11 • MySQL • Dynamic CMS • Real-Time Inquiry Tracking | **₹50,000 – ₹80,000** | Full IP Buyout: ₹1,10,000 | [View Public Showcase](https://github.com/RG-Creators/mehtaprimecapital-showcase) |
-| **Saloon & Spa Booking Platform** | Salon, Spa & Wellness Chains | Multi-Tenant Laravel 11 • Flutter Customer App • Flutter Salon Owner App | **₹65,000 – ₹95,000** | Full IP Buyout: ₹1,25,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Saloon%20Booking%20Platform) |
-| **Hospital Core RMS** | Healthcare, Clinics & Inpatient HMS | Core PHP 8.2+ • MySQL • Patient, Doctor & Admin Portals • EMR History | **₹75,000 – ₹1,20,000** | Full IP Buyout: ₹1,60,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Hospital%20Core%20RMS) |
-| **Editorial Maison E-Commerce** | High-Fashion Luxury Retail | Laravel 11 • Tailwind CSS 3.4 • Razorpay Gateway • Cart & Wishlist | **₹45,000 – ₹70,000** | Full IP Buyout: ₹95,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Editorial%20Maison%20Ecommerce) |
-| **Smart Attendance System SaaS** | Universities & Corporate Campuses | Multi-Tenant Core PHP • Branch Geofencing • Shift/Break Calculation Engine | **₹40,000 – ₹65,000** | Full IP Buyout: ₹85,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Smart%20Attendance%20System) |
-| **BlenderHub LMS & Asset Store** | 3D Graphics EdTech & Marketplace | Core PHP • WebGL / Blender Pipeline • Creator Monetization • SharePay OTP | **₹50,000 – ₹80,000** | Full IP Buyout: ₹1,05,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20BlenderHub%20LMS) |
-| **Enterprise HRMS & Payroll Suite** | Corporate Workforce Operations | REST API Router • Role-Based Access • Attendance Logs • Leave Approval Workflow | **₹50,000 – ₹80,000** | Full IP Buyout: ₹1,10,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Enterprise%20HRMS) |
-| **Atomic QR Voucher Engine** | Retail Campaigns & Ticket Access | Tailwind CSS • HTML5 WebCam QR Scanner • Atomic Double-Spend Prevention | **₹25,000 – ₹45,000** | Full IP Buyout: ₹60,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20QR%20Voucher%20Engine) |
-| **Instant Dynamic UPI Gateway** | FinTech & Digital Payments | Dynamic Amount UPI QR • Customer Transaction Auditing • Atomic Admin Ledger | **₹30,000 – ₹55,000** | Full IP Buyout: ₹75,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Instant%20UPI%20Gateway) |
-| **ConvoManage Event Suite** | Encrypted Summits & Breakouts | Symmetric AES-128-CTR OpenSSL Encryption • Dynamic 6-Char Join Codes | **₹35,000 – ₹55,000** | Full IP Buyout: ₹75,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20ConvoManage%20Event%20Suite) |
-| **OTP Auth & Esports Portal** | Gaming & Multi-Channel Auth | PHPMailer SMTP • Time-Sensitive 6-Digit OTP • Tournament Rosters | **₹35,000 – ₹60,000** | Full IP Buyout: ₹80,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20OTP%20Auth%20Esports%20Portal) |
+| Open-Source Project | Architecture & Tech Stack | Key Capabilities & Highlights | GitHub Repository |
+| :--- | :--- | :--- | :--- |
+| **Human Resource Management System (HRMS)** | Core PHP 8.2+ • REST API Router • Single-Page App • MySQL | Full workforce lifecycle suite: attendance clock-in, multi-state leave approval workflow, payroll calculation engine, and automated database seeders. | [View Code → `human-resource-management-system`](https://github.com/RG-Creators/human-resource-management-system) |
+| **Hospital Core RMS** | Core PHP 8.2+ • Parameterized MySQLi • Tailwind CSS • Multi-Portal | Tri-portal clinical operations (Patient, Doctor, Admin), outpatient/inpatient EMR records, dynamic doctor scheduling, and session audit tracking. | [View Code → `hospital-core-rms`](https://github.com/RG-Creators/hospital-core-rms) |
+| **QR Voucher & Ticket Redemption Engine** | Core PHP 8.2+ • Tailwind CSS • HTML5 WebCam Scanner • MySQL | Cryptographic 64-char SHA-256 tokens, atomic double-spend prevention (`is_redeemed = 0`), live camera QR decoding, and cashier redemption audit logs. | [View Code → `qr-voucher-redemption-engine`](https://github.com/RG-Creators/qr-voucher-redemption-engine) |
+| **Instant Dynamic UPI Payment Gateway** | Core PHP 8.2+ • QR.js • Atomic Transactions • Bootstrap 5.3 | Client-side dynamic UPI QR code generator, customer payment request submission, and atomic administrative approval workflow (`begin_transaction()`). | [View Code → `instant-upi-payment-gateway`](https://github.com/RG-Creators/instant-upi-payment-gateway) |
+| **ConvoManage Event & Chat Suite** | Core PHP 8.2+ • AES-128-CTR OpenSSL • PDO • WebSocket/Polling | End-to-end encrypted room messaging, 6-character alphanumeric join codes, role-based organizer controls, and zero plain-text storage. | [View Code → `convomanage-event-suite`](https://github.com/RG-Creators/convomanage-event-suite) |
+| **OTP Auth & Esports Tournament Portal** | Core PHP 8.2+ • PHPMailer 6.9 • Rate-Limited Tokens • MySQL | Time-sensitive 6-digit cryptographic OTP authentication, anti-replay single-use tokens, competitive esports team roster registration, and match brackets. | [View Code → `otp-auth-tournament-portal`](https://github.com/RG-Creators/otp-auth-tournament-portal) |
 
 ---
 
@@ -142,11 +144,11 @@ My engineering standard adheres to high reliability, local-first offline resilie
 +-----------------------------------------------------------------------------------------+
 ```
 
-#### Core Engineering Principles I Stand By:
-1. **ACID Transaction Boundaries**: Crucial state updates (payment approvals, voucher redemptions, table order submissions) are strictly executed inside atomic database transactions (`begin_transaction()` $\rightarrow$ `commit()` / `rollback()`) with pessimistic row locking (`FOR UPDATE`) to prevent race conditions.
-2. **Local-First & Hardware Resilience**: In retail and restaurant environments, internet interruptions are inevitable. POS architectures are designed with offline caching and asynchronous hardware queue retries over TCP/IP Socket Port 9100, Bluetooth BLE, and USB OTG.
-3. **Zero-Trust Security Baseline**: Every query is 100% parameterized with PDO/Prepared Statements (eliminating SQL injection). Passwords utilize adaptive `PASSWORD_BCRYPT` with transparent rehashing. POST routes enforce cryptographic CSRF validation.
-4. **Clean Domain Boundaries**: Separation of concerns between single-entrypoint REST dispatchers, domain business logic, and isolated relational models.
+#### Core Engineering Principles:
+1. **ACID Transaction Boundaries**: Crucial state updates (payment approvals, voucher redemptions, table order submissions) are strictly executed inside atomic database transactions (`begin_transaction()` $\rightarrow$ `commit()` / `rollback()`) with row locking to eliminate race conditions.
+2. **Local-First & Hardware Resilience**: In retail and restaurant environments, connectivity drops are inevitable. Systems feature local offline caching with asynchronous retry dispatch over TCP/IP Socket Port 9100, Bluetooth BLE, and USB OTG.
+3. **Zero-Trust Security Baseline**: Every query is strictly parameterized via PDO or Prepared Statements (100% immune to SQL injection). Passwords utilize adaptive `PASSWORD_BCRYPT` with transparent rehashing. POST routes enforce cryptographic CSRF validation.
+4. **Clean Domain Boundaries**: Distinct separation of concerns between single-entrypoint REST dispatchers, domain business logic, and isolated relational models.
 
 ---
 
@@ -190,7 +192,7 @@ My engineering standard adheres to high reliability, local-first offline resilie
 
 ---
 
-### 🤝 Direct Inquiries & Software Acquisition
+### 🤝 Connect & Collaborate
 
 <div align="center">
 
@@ -199,7 +201,7 @@ My engineering standard adheres to high reliability, local-first offline resilie
   </a>
   &nbsp;
   <a href="mailto:rgcreatorsofficial@gmail.com">
-    <img src="https://img.shields.io/badge/Commercial_Inquiries-rgcreatorsofficial%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Direct_Email-rgcreatorsofficial%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
   <a href="https://github.com/RG-Creators">
