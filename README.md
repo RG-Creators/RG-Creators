@@ -38,13 +38,15 @@ Beyond academia, I have architected and deployed **multiple commercial client so
 
 - 📍 **Location**: Kolkata, West Bengal, India
 - 🎓 **Education**: BCA (Honours), Kingston College of Science (WBSU) — Expected 2027
-- 🌐 **Live Portfolio**: [rgcreators.netlify.app](https://rgcreators.netlify.app)
+- 🌐 **Official Portfolio**: [rgcreators.netlify.app](https://rgcreators.netlify.app)
 - ✉️ **Direct Commercial Inquiries**: [rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)
 - 🚀 **Primary Specializations**: Multi-Tenant SaaS, Point-of-Sale (POS) & Restaurant Management (RMS), Hardware ESC/POS Integration, E-Commerce Architectures, EMR/Clinical Systems.
 
 ---
 
-### 🚀 Flagship Live Systems & Public Production Deployments
+### 🚀 Public Production Flagships & Live Showcases
+
+These live deployments and public showcase repositories demonstrate verified production code quality, architectural documentation, and live client implementations:
 
 #### 1. 🍽️ Multi-Tenant Cloud POS & Restaurant Management SaaS (RMS OS)
 - **Public Showcase Repository**: [`RG-Creators/cloud-pos-saas-showcase`](https://github.com/RG-Creators/cloud-pos-saas-showcase)
@@ -66,14 +68,14 @@ Beyond academia, I have architected and deployed **multiple commercial client so
 
 ---
 
-### 💼 Commercial SaaS Platforms & Proprietary IP (Available for Acquisition)
+### 💼 Commercial Software Solutions & Proprietary IP Catalog (Available for Acquisition)
 
 > [!IMPORTANT]
 > **Commercial Intellectual Property Notice & Full Source Code Acquisition:**
-> The following commercial software platforms are maintained as **proprietary enterprise codebases in private repositories**. They are available for **complete source code buyout, commercial acquisition, or white-label enterprise deployment**.
+> The following production-hardened software solutions are maintained as **proprietary commercial IP in private repositories**. They are available for **complete source code buyout, commercial acquisition, or white-label enterprise deployment**.
 > 
 > **Every Acquisition Package Includes:**
-> - Full Git Repository with Complete Commit History & Architecture Documentation
+> - Complete Git Repository with Full Commit History & Architecture Documentation
 > - Normalized Production MySQL Schemas, Migrations & Complete Seeders
 > - Postman / Thunder Client API Test Collections & Integration Contracts
 > - Production Deployment Runbooks (Docker / Nginx / Apache / SSL)
@@ -81,33 +83,21 @@ Beyond academia, I have architected and deployed **multiple commercial client so
 > 
 > *To request private repository access, a live architectural walkthrough, or negotiate buyout terms, contact **[rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)**.*
 
-| Commercial Platform | Vertical / Domain | Core Architecture & Tech Stack | Licensing & Acquisition Options | Showcase Link |
-| :--- | :--- | :--- | :--- | :--- |
-| **Multi-Tenant Cloud POS & RMS** | Hospitality, Cafes & Multi-Outlet Chains | Laravel 11 • Flutter • 3-Printer ESC/POS Socket Bridge (Port 9100) • QR Ordering | • Annual White-Label License<br>• Full Proprietary Source Code Buyout | [Showcase Docs](https://github.com/RG-Creators/cloud-pos-saas-showcase) |
-| **Smart Attendance System SaaS** | Universities, Colleges & Multi-Branch Corporates | Core PHP 8.2+ • Multi-Tenant RBAC • Branch Geofencing • Shift/Break Engine | • Organization Multi-Tenant License<br>• Full Proprietary Source Code Buyout | [Showcase Docs](https://github.com/RG-Creators/smart-attendance-system-showcase) |
-| **BlenderHub LMS & Asset Store** | 3D Graphics EdTech & Digital Asset Marketplace | Core PHP • WebGL / Blender Pipeline • Creator Monetization • SharePay OTP | • Marketplace Enterprise License<br>• Full Proprietary Source Code Buyout | [Showcase Docs](https://github.com/RG-Creators/blenderhub-lms-showcase) |
-| **Visti Cafe Hospitality Suite** | Quick Service Restaurants & Dine-In Dining | Full-Stack Laravel • Android Flutter POS • Live Online Ordering • Kitchen Routing | • Turnkey Restaurant Deployment<br>• Full Source Code Acquisition | [Showcase Docs](https://github.com/RG-Creators/visti-cafe-pos-showcase) |
-| **Mehta Prime Financial Portal** | Wealth Advisory, FinTech & Loan Distribution | Laravel 11 • Dynamic CMS • Real-Time Inquiry CRM • Automated Lead Routing | • Custom Advisory CMS Deployment<br>• Full Source Code Acquisition | [Showcase Docs](https://github.com/RG-Creators/mehtaprimecapital-showcase) |
-
----
-
-### 🌟 Open-Source Developer Repositories (Free to Clone, Star & Contribute)
-
-> [!TIP]
-> **Community Notice:**
-> All repositories below are **100% open-source and free for developers** to clone, study, fork, and build upon.
-> 
-> ⭐ **If any of these codebases helped you learn, solve a production challenge, or build an app, please drop a Star on GitHub! Your support helps these tools reach more developers.**
-
-| Project Repository | Focus Area | Architecture Highlights | Badges & Quick Links |
-| :--- | :--- | :--- | :--- |
-| [**human-resource-management-system**](https://github.com/RG-Creators/human-resource-management-system) | Enterprise HRMS & Workforce Suite | RESTful API dispatcher, role-based access control, attendance clocking, leave lifecycle approval workflows, and automated payroll ledger calculations. | ![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square&logo=php&logoColor=white) ![REST](https://img.shields.io/badge/REST-API-0052CC?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/human-resource-management-system?style=social)](https://github.com/RG-Creators/human-resource-management-system) |
-| [**maison-editorial-ecommerce**](https://github.com/RG-Creators/maison-editorial-ecommerce) | Luxury High-Fashion E-Commerce | Laravel 11, Tailwind CSS 3.4, Razorpay payment gateway integration, dynamic cart, wishlist, order tracking ledger, and administrative audit logging. | ![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/maison-editorial-ecommerce?style=social)](https://github.com/RG-Creators/maison-editorial-ecommerce) |
-| [**hospital-core-rms**](https://github.com/RG-Creators/hospital-core-rms) | Clinical EMR & Inpatient Management | Multi-role Patient, Doctor, and Admin clinical operations suite with appointment booking, medical history timelines, and doctor specialization matching. | ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/hospital-core-rms?style=social)](https://github.com/RG-Creators/hospital-core-rms) |
-| [**qr-voucher-redemption-engine**](https://github.com/RG-Creators/qr-voucher-redemption-engine) | Retail Vouchers & Access Control | Real-time WebCam QR scanner (`html5-qrcode`), SHA-256 voucher tokens, atomic database anti-double-spend locks, and cashier manual lookup fallback. | ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![QR](https://img.shields.io/badge/QR-Scanner-indigo?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/qr-voucher-redemption-engine?style=social)](https://github.com/RG-Creators/qr-voucher-redemption-engine) |
-| [**instant-upi-payment-gateway**](https://github.com/RG-Creators/instant-upi-payment-gateway) | Dynamic UPI Payments & FinTech | Client-side dynamic UPI QR code generator, customer UTR transaction submission pipeline, and atomic admin verification ledger with zero framework bloat. | ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square) ![FinTech](https://img.shields.io/badge/UPI-Gateway-green?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/instant-upi-payment-gateway?style=social)](https://github.com/RG-Creators/instant-upi-payment-gateway) |
-| [**convomanage-event-suite**](https://github.com/RG-Creators/convomanage-event-suite) | End-to-End Encrypted Conferencing | Symmetric OpenSSL AES-128-CTR in-memory message encryption, dynamic 6-digit conference join codes, and responsive collaborative breakout chat rooms. | ![Security](https://img.shields.io/badge/OpenSSL-AES--128-blueviolet?style=flat-square) ![Chat](https://img.shields.io/badge/Real--Time-Chat-blue?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/convomanage-event-suite?style=social)](https://github.com/RG-Creators/convomanage-event-suite) |
-| [**otp-auth-tournament-portal**](https://github.com/RG-Creators/otp-auth-tournament-portal) | Cryptographic OTP & Esports Hub | Time-sensitive 6-digit OTP verification via PHPMailer SMTP, session re-generation security, competitive esports team roster registration, and tournaments. | ![Auth](https://img.shields.io/badge/OTP-Auth-orange?style=flat-square) ![Esports](https://img.shields.io/badge/Esports-Platform-red?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/RG-Creators/otp-auth-tournament-portal?style=social)](https://github.com/RG-Creators/otp-auth-tournament-portal) |
+| Software Solution | Vertical / Domain | Tech Stack & Architecture Highlights | Commercial Valuation (INR) | Acquisition Rights | Direct Access / Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Cloud POS & RMS Hospitality SaaS** | Cafes, Restaurants & Multi-Outlet Chains | Laravel 11 • Flutter • 3-Printer ESC/POS Socket (Port 9100) • QR Ordering | **₹1,20,000 – ₹1,80,000** | Full IP Buyout: ₹2,50,000 | [View Public Showcase](https://github.com/RG-Creators/cloud-pos-saas-showcase) |
+| **Visti Cafe Hospitality Suite** | Quick Service Restaurants & Dining | Full-Stack Laravel • Android Flutter POS • Live Ordering • Kitchen Routing | **₹80,000 – ₹1,20,000** | Full IP Buyout: ₹1,50,000 | [View Public Showcase](https://github.com/RG-Creators/visti-cafe-pos-showcase) |
+| **Mehta Prime Financial Portal** | Wealth Advisory & Loan CRM | Laravel 11 • MySQL • Dynamic CMS • Real-Time Inquiry Tracking | **₹50,000 – ₹80,000** | Full IP Buyout: ₹1,10,000 | [View Public Showcase](https://github.com/RG-Creators/mehtaprimecapital-showcase) |
+| **Saloon & Spa Booking Platform** | Salon, Spa & Wellness Chains | Multi-Tenant Laravel 11 • Flutter Customer App • Flutter Salon Owner App | **₹65,000 – ₹95,000** | Full IP Buyout: ₹1,25,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Saloon%20Booking%20Platform) |
+| **Hospital Core RMS** | Healthcare, Clinics & Inpatient HMS | Core PHP 8.2+ • MySQL • Patient, Doctor & Admin Portals • EMR History | **₹75,000 – ₹1,20,000** | Full IP Buyout: ₹1,60,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Hospital%20Core%20RMS) |
+| **Editorial Maison E-Commerce** | High-Fashion Luxury Retail | Laravel 11 • Tailwind CSS 3.4 • Razorpay Gateway • Cart & Wishlist | **₹45,000 – ₹70,000** | Full IP Buyout: ₹95,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Editorial%20Maison%20Ecommerce) |
+| **Smart Attendance System SaaS** | Universities & Corporate Campuses | Multi-Tenant Core PHP • Branch Geofencing • Shift/Break Calculation Engine | **₹40,000 – ₹65,000** | Full IP Buyout: ₹85,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Smart%20Attendance%20System) |
+| **BlenderHub LMS & Asset Store** | 3D Graphics EdTech & Marketplace | Core PHP • WebGL / Blender Pipeline • Creator Monetization • SharePay OTP | **₹50,000 – ₹80,000** | Full IP Buyout: ₹1,05,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20BlenderHub%20LMS) |
+| **Enterprise HRMS & Payroll Suite** | Corporate Workforce Operations | REST API Router • Role-Based Access • Attendance Logs • Leave Approval Workflow | **₹50,000 – ₹80,000** | Full IP Buyout: ₹1,10,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Enterprise%20HRMS) |
+| **Atomic QR Voucher Engine** | Retail Campaigns & Ticket Access | Tailwind CSS • HTML5 WebCam QR Scanner • Atomic Double-Spend Prevention | **₹25,000 – ₹45,000** | Full IP Buyout: ₹60,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20QR%20Voucher%20Engine) |
+| **Instant Dynamic UPI Gateway** | FinTech & Digital Payments | Dynamic Amount UPI QR • Customer Transaction Auditing • Atomic Admin Ledger | **₹30,000 – ₹55,000** | Full IP Buyout: ₹75,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20Instant%20UPI%20Gateway) |
+| **ConvoManage Event Suite** | Encrypted Summits & Breakouts | Symmetric AES-128-CTR OpenSSL Encryption • Dynamic 6-Char Join Codes | **₹35,000 – ₹55,000** | Full IP Buyout: ₹75,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20ConvoManage%20Event%20Suite) |
+| **OTP Auth & Esports Portal** | Gaming & Multi-Channel Auth | PHPMailer SMTP • Time-Sensitive 6-Digit OTP • Tournament Rosters | **₹35,000 – ₹60,000** | Full IP Buyout: ₹80,000 | [Request Private Demo](mailto:rgcreatorsofficial@gmail.com?subject=Inquiry%20-%20OTP%20Auth%20Esports%20Portal) |
 
 ---
 
