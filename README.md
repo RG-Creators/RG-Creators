@@ -4,15 +4,15 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,48,32,60&height=220&section=header&text=Ronit%20Goswami&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Systems%20Architect%20%7C%20SaaS%20Builder%20%7C%20Hardware%20ESC%2FPOS%20Bridge&descAlignY=58&descAlign=50" width="100%" alt="Ronit Goswami Header" />
 
   <!-- Animated Typing Subtitle -->
-  <a href="https://rgcreators.netlify.app/" target="_blank">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=34D399&center=true&vCenter=true&width=780&lines=Full-Stack+Systems+Architect+%26+SaaS+Builder;Laravel+11%2F12+%E2%80%A2+Core+PHP+8.2%2B+%E2%80%A2+Flutter+%E2%80%A2+MySQL;Architect+of+Multi-Tenant+Cloud+POS+%26+RMS+Hospitality+OS;Parallel+3-Printer+Hardware+Bridge+(BKOT%2FKKOT%2FBILL);Deployed+3%2B+Commercial+Production+SaaS+Flagships;High-Concurrency+Systems+%E2%80%A2+Offline-Ready+Local-First+Bridges" alt="Typing SVG" />
+  <a href="https://rgcreators.netlify.app" target="_blank">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=34D399&center=true&vCenter=true&width=780&lines=Full-Stack+Systems+Architect+%26+SaaS+Builder;Laravel+11%2F12+%E2%80%A2+Core+PHP+8.2%2B+%E2%80%A2+Flutter+%E2%80%A2+MySQL;Architect+of+Multi-Tenant+Cloud+POS+%26+RMS+Hospitality+OS;Parallel+3-Printer+Hardware+Bridge+(BKOT%2FKKOT%2FBILL);Deployed+3%2B+Commercial+Production+SaaS+Flagships;High-Concurrency+Systems+%E2%80%A2+Offline-Ready+Local-First+Bridges;Proprietary+Software+IP+Catalog+Available+for+Acquisition" alt="Typing SVG" />
   </a>
 
   <br/><br/>
 
   <!-- Verified Badges & Contact Anchors -->
   <p align="center">
-    <a href="https://rgcreators.netlify.app/" target="_blank">
+    <a href="https://rgcreators.netlify.app" target="_blank">
       <img src="https://img.shields.io/badge/Portfolio-rgcreators.netlify.app-7457DC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
     </a>
     <a href="mailto:rgcreatorsofficial@gmail.com">
@@ -34,71 +34,78 @@
 
 I am **Ronit Goswami (RG)**, a Kolkata-based **Full-Stack Systems Architect, Laravel Engineer, and Mobile / Hardware Systems Developer** pursuing a 4-year Bachelor of Computer Applications (BCA Honours, NEP curriculum, 2023–2027) at Kingston College of Science under West Bengal State University.
 
-Beyond academia, I have architected and deployed **3 commercial client solutions in live production** and engineered complex **multi-tenant SaaS platforms**. My engineering bridges high-concurrency backend development (PHP 8.2+, Laravel 11/12, MySQL 8.0/9.0, REST APIs) with cross-platform mobile apps (Flutter / Dart) and hardware-level IoT protocols (80mm ESC/POS thermal printing over Bluetooth BLE, USB OTG, and TCP/IP Socket Port 9100).
+Beyond academia, I have architected and deployed **multiple commercial client solutions in live production** and engineered high-concurrency **multi-tenant SaaS platforms**. My engineering bridges backend architectures (PHP 8.2+, Laravel 11/12, MySQL 8.0/9.0, REST APIs) with cross-platform mobile apps (Flutter / Dart) and hardware-level IoT protocols (80mm ESC/POS thermal printing over Bluetooth BLE, USB OTG, and TCP/IP Socket Port 9100).
 
 - 📍 **Location**: Kolkata, West Bengal, India
 - 🎓 **Education**: BCA (Honours), Kingston College of Science (WBSU) — Expected 2027
-- 🌐 **Live Portfolio**: [rgcreators.netlify.app](https://rgcreators.netlify.app/)
-- ✉️ **Direct Contact**: [rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)
+- 🌐 **Live Portfolio**: [rgcreators.netlify.app](https://rgcreators.netlify.app)
+- ✉️ **Direct Commercial Inquiries**: [rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)
 - 🚀 **Primary Specializations**: Multi-Tenant SaaS, Point-of-Sale (POS) & Restaurant Management (RMS), Hardware ESC/POS Integration, E-Commerce Architectures, EMR/Clinical Systems.
 
 ---
 
-### 🚀 Live Production Flagships & Commercial Deployments
+### 🚀 Flagship Live Systems & Public Production Deployments
 
 #### 1. 🍽️ Multi-Tenant Cloud POS & Restaurant Management SaaS (RMS OS)
-- **Showcase Repository**: [`RG-Creators/cloud-pos-saas-showcase`](https://github.com/RG-Creators/cloud-pos-saas-showcase)
-- **System Architecture**:
+- **Public Showcase Repository**: [`RG-Creators/cloud-pos-saas-showcase`](https://github.com/RG-Creators/cloud-pos-saas-showcase)
+- **Core Architecture & Capabilities**:
   - Multi-tenant database tenancy isolation supporting multi-outlet restaurant chains with zero cross-tenant contamination.
   - **Parallel 3-Printer Dispatch Engine**: Dispatches split thermal receipts simultaneously across `BKOT` (Bar KOT), `KKOT` (Kitchen KOT), and `BILL` (Customer Invoice) over Bluetooth BLE, USB OTG, and TCP/IP LAN Socket (Port 9100).
   - Commission-free direct customer QR table ordering and digital payment settlements.
-  - Real-time table occupancy status, inventory depletion ledger, staff QR biometric attendance, and automated payroll calculations.
+  - Real-time table occupancy status, inventory depletion ledger, staff QR biometric attendance, and automated payroll ledger.
 
 #### 2. ☕ Visti Cafe & Restaurant — Production POS & Online Ordering Platform
-- **Public Showcase**: [`RG-Creators/visti-cafe-pos-showcase`](https://github.com/RG-Creators/visti-cafe-pos-showcase)
-- **Live Website**: [visticafeandrestaurant.com](https://visticafeandrestaurant.com)
-- Full-stack production restaurant management engine handling dine-in table sessions, takeout ticketing, and live Flutter Android POS operations.
+- **Public Showcase Repository**: [`RG-Creators/visti-cafe-pos-showcase`](https://github.com/RG-Creators/visti-cafe-pos-showcase)
+- **Live Production URL**: [visticafeandrestaurant.com](https://visticafeandrestaurant.com)
+- Full-stack production restaurant management engine handling dine-in table sessions, takeout ticketing, and live Flutter Android POS operations with parallel KOT routing.
 
 #### 3. 📈 Mehta Prime Capital — Dynamic Financial Advisory CMS & Lead CRM
-- **Public Showcase**: [`RG-Creators/mehtaprimecapital-showcase`](https://github.com/RG-Creators/mehtaprimecapital-showcase)
-- **Live Portal**: [mehtaprimecapital.in](https://mehtaprimecapital.in)
-- Full-stack Laravel 11 dynamic portal and administrative lead management CRM for financial planning, loan underwriting advisory, and client inquiries.
+- **Public Showcase Repository**: [`RG-Creators/mehtaprimecapital-showcase`](https://github.com/RG-Creators/mehtaprimecapital-showcase)
+- **Live Production URL**: [mehtaprimecapital.in](https://mehtaprimecapital.in)
+- Full-stack Laravel 11 dynamic portal and administrative lead management CRM for financial planning, loan underwriting advisory, and real-time client inquiry tracking.
 
 ---
 
-### 💼 Commercial SaaS Platforms (Public Showcase Track)
+### 💼 Commercial Software Solutions & Proprietary IP Catalog (Available for Acquisition)
 
-Public showcase repositories for commercial platforms, auto-synchronized via GitHub Actions CI/CD with private core engines:
+> [!IMPORTANT]
+> **Commercial Intellectual Property Notice & Full Source Code Acquisition:**
+> The following battle-tested, production-ready software solutions are held as **proprietary commercial IP in private repositories**. They are available for **complete source code buyout, commercial acquisition, or white-label enterprise licensing** tailored to your business needs.
+> 
+> **Each Acquisition Package Includes:**
+> - Complete Git Repository with Full Commit History & Architectural Documentation
+> - Normalized Production Relational Database Schemas, Migrations & Complete Seeders
+> - Postman / Thunder Client API Test Collections & Integration Contracts
+> - Production Deployment Runbooks (Docker / Nginx / Apache / SSL)
+> - **30 Days of Dedicated Technical Handover & Integration Support** by Lead Architect Ronit Goswami
+> 
+> *To request private repository access, a live architectural walkthrough, or negotiate buyout terms, contact **[rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)**.*
 
-| Repository | Focus & Domain | Tech Stack | Status |
-|:---|:---|:---|:---|
-| [**smart-attendance-system-showcase**](https://github.com/RG-Creators/smart-attendance-system-showcase) | Multi-Tenant Institution & Multi-Branch Corporate Workforce Attendance SaaS | PHP 8.2 • MySQL • Multi-Tenant RBAC | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/smart-attendance-system-showcase) |
-| [**blenderhub-lms-showcase**](https://github.com/RG-Creators/blenderhub-lms-showcase) | 3D Digital Asset Marketplace & Video Course Learning Management System | Core PHP • Blender Pipeline • MySQL | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/blenderhub-lms-showcase) |
-| [**cloud-pos-saas-showcase**](https://github.com/RG-Creators/cloud-pos-saas-showcase) | Multi-Tenant Cloud POS, RMS, Parallel 3-Printer Bridge & Staff Payroll | Laravel 11 • Flutter • ESC/POS Socket | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/cloud-pos-saas-showcase) |
-| [**visti-cafe-pos-showcase**](https://github.com/RG-Creators/visti-cafe-pos-showcase) | Production Restaurant POS & Commission-Free Ordering Suite | Laravel • Flutter • ESC/POS Thermal | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/visti-cafe-pos-showcase) |
-| [**mehtaprimecapital-showcase**](https://github.com/RG-Creators/mehtaprimecapital-showcase) | Financial Advisory Web Portal & Real-Time Lead-Capture CRM | Laravel 11 • MySQL • Dynamic CMS | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/mehtaprimecapital-showcase) |
-
----
-
-### 🌐 Open-Source & Public Portfolio Projects
-
-Production-hardened repositories demonstrating clean systems engineering, security compliance, and elegant UI/UX preservation:
-
-| Project Repository | Category | Core Architecture & Highlights | Badges |
-|:---|:---|:---|:---|
-| [**maison-editorial-ecommerce**](https://github.com/RG-Creators/maison-editorial-ecommerce) | Luxury E-Commerce | Laravel 11, Tailwind CSS, Razorpay Payment Gateway, Cart, Wishlist, Order Tracking, Admin Audit Log | ![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) |
-| [**hospital-core-rms**](https://github.com/RG-Creators/hospital-core-rms) | Clinical EMR / HMS | Multi-Role Patient, Doctor & Admin Clinical Operations Suite, EMR Records, Specialization Matching | ![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| [**qr-voucher-redemption-engine**](https://github.com/RG-Creators/qr-voucher-redemption-engine) | Retail & Event Ops | WebCam QR Camera Scanner (`html5-qrcode`), SHA-256 Tokens, Atomic Anti-Double-Redeem Transactions | ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![QR](https://img.shields.io/badge/QR-Scanner-indigo?style=flat-square) |
-| [**instant-upi-payment-gateway**](https://github.com/RG-Creators/instant-upi-payment-gateway) | FinTech / Payments | Dynamic UPI QR Generator, Customer Transaction Auditing, Atomic Admin Verification Ledger | ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square) ![FinTech](https://img.shields.io/badge/UPI-Gateway-green?style=flat-square) |
-| [**convomanage-event-suite**](https://github.com/RG-Creators/convomanage-event-suite) | Event & Breakout | End-to-End Encrypted Real-Time Chat (AES-128-CTR via OpenSSL), 6-Digit Join Codes, Meeting CRUD | ![Security](https://img.shields.io/badge/OpenSSL-AES--128-blueviolet?style=flat-square) ![Chat](https://img.shields.io/badge/Real--Time-Chat-blue?style=flat-square) |
-| [**human-resource-management-system**](https://github.com/RG-Creators/human-resource-management-system) | Enterprise HRMS | Full-Stack Human Resource Management REST API Router, Attendance Clocking, Leave Approval & Payroll | ![REST](https://img.shields.io/badge/REST-API-0052CC?style=flat-square) ![VanillaJS](https://img.shields.io/badge/Vanilla-JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| [**otp-auth-tournament-portal**](https://github.com/RG-Creators/otp-auth-tournament-portal) | Esports & Auth | Cryptographic Time-Sensitive OTP Auth (PHPMailer SMTP), Competitive Team Rosters & Tournaments | ![Auth](https://img.shields.io/badge/OTP-Auth-orange?style=flat-square) ![Esports](https://img.shields.io/badge/Esports-Platform-red?style=flat-square) |
+| Software Solution | Vertical / Domain | Tech Stack | Estimated Valuation (INR) | Buyout Rights | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Saloon & Spa Booking Platform** | Salon, Spa & Wellness Chains | Laravel 11 • Flutter (Customer + Owner) • MySQL | **₹65,000 – ₹95,000** | Full IP Buyout: ₹1,25,000 | `Private IP / Available` |
+| **Hospital Core RMS** | Hospitals, Clinics & Healthcare EMR | PHP 8.2+ • MySQL • Multi-Role RBAC | **₹75,000 – ₹1,20,000** | Full IP Buyout: ₹1,60,000 | `Private IP / Available` |
+| **Editorial Maison E-Commerce** | Luxury Fashion & Retail | Laravel 11 • Tailwind CSS • Razorpay | **₹45,000 – ₹70,000** | Full IP Buyout: ₹95,000 | `Private IP / Available` |
+| **Enterprise HRMS & Payroll Suite** | Corporate HR & Workforce Ops | REST API • Vanilla JS • MySQL • Payroll Models | **₹50,000 – ₹80,000** | Full IP Buyout: ₹1,10,000 | `Private IP / Available` |
+| **Smart Attendance System SaaS** | Universities & Corporate Campuses | Multi-Tenant PHP • QR Engine • MySQL | **₹40,000 – ₹65,000** | Full IP Buyout: ₹85,000 | `Private IP / Available` |
+| **BlenderHub LMS & Asset Store** | 3D EdTech & Asset Marketplace | Core PHP • WebGL • DRM Pipelines • MySQL | **₹50,000 – ₹80,000** | Full IP Buyout: ₹1,05,000 | `Private IP / Available` |
+| **ConvoManage Event Suite** | Conferences & Secure Summits | AES-128 Encryption • WebSockets • PHP | **₹35,000 – ₹55,000** | Full IP Buyout: ₹75,000 | `Private IP / Available` |
+| **OTP Auth & Esports Portal** | Gaming & Multi-Channel Auth | PHPMailer • WhatsApp API • MySQL | **₹35,000 – ₹60,000** | Full IP Buyout: ₹80,000 | `Private IP / Available` |
+| **Atomic QR Voucher Engine** | Retail Campaigns & Loyalty | Tailwind CSS • HTML5 QR • Atomic Transactions | **₹25,000 – ₹45,000** | Full IP Buyout: ₹60,000 | `Private IP / Available` |
+| **Instant Dynamic UPI Gateway** | FinTech & Digital Payments | Dynamic UPI QR • Intent Dispatch • Webhooks | **₹30,000 – ₹55,000** | Full IP Buyout: ₹75,000 | `Private IP / Available` |
+| **DevPulse AI Intelligence Suite** | DevSecOps & AI Code Review | Python • LLM Orchestration • CI/CD Scanners | **₹55,000 – ₹90,000** | Full IP Buyout: ₹1,25,000 | `Private IP / Available` |
+| **SoundBridge Audio Streamer** | Synchronized Audio Streaming | WebAudio • Sub-10ms Clock Sync • PWA | **₹25,000 – ₹45,000** | Full IP Buyout: ₹60,000 | `Private IP / Available` |
+| **Competitive Exam TestKit** | Govt & Railway Exam Prep | CBT Exam Engine • NTA Simulator • JSON Bank | **₹30,000 – ₹50,000** | Full IP Buyout: ₹65,000 | `Private IP / Available` |
+| **Meteorological Weather Hub** | Weather & Agri-Intelligence | Multi-Provider Fallback • Radar Maps • PWA | **₹15,000 – ₹25,000** | Full IP Buyout: ₹35,000 | `Private IP / Available` |
+| **Enterprise Task Workflow Suite** | Team Task & Project Tracking | Drag-Drop Kanban • Natural Language • CRDT | **₹15,000 – ₹25,000** | Full IP Buyout: ₹35,000 | `Private IP / Available` |
+| **Developer Portfolio Engine** | Creative Branding & Showcases | HTML5 • CSS3 Grid • Lead Capture Engine | **₹15,000 – ₹25,000** | Full IP Buyout: ₹35,000 | `Private IP / Available` |
+| **Modular Enterprise SaaS Core** | SaaS Scaffolding & Starters | Modular PHP • RBAC • Multi-Tenant DB | **₹15,000 – ₹25,000** | Full IP Buyout: ₹35,000 | `Private IP / Available` |
 
 ---
 
 ### 🏗️ Systems Architecture & Engineering Philosophy
 
-My engineering standard adheres to high-reliability, local-first offline resilience, and strict database transaction boundaries:
+My engineering standard adheres to high reliability, local-first offline resilience, and strict database transaction boundaries:
 
 ```
 +-----------------------------------------------------------------------------------------+
@@ -179,16 +186,16 @@ My engineering standard adheres to high-reliability, local-first offline resilie
 
 ---
 
-### 🤝 Connect with Ronit Goswami
+### 🤝 Direct Inquiries & Software Acquisition
 
 <div align="center">
 
-  <a href="https://rgcreators.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Portfolio-rgcreators.netlify.app-7457DC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+  <a href="https://rgcreators.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/Official_Portfolio-rgcreators.netlify.app-7457DC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
   </a>
   &nbsp;
   <a href="mailto:rgcreatorsofficial@gmail.com">
-    <img src="https://img.shields.io/badge/Email-rgcreatorsofficial%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Commercial_Inquiries-rgcreatorsofficial%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
   <a href="https://github.com/RG-Creators">
