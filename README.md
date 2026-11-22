@@ -30,23 +30,23 @@
 
 ---
 
-### ????? Professional Summary & Executive Bio
+### 👨‍💻 Professional Summary & Executive Bio
 
-I am **Ronit Goswami (RG)**, a Kolkata-based **Full-Stack Systems Architect, Laravel Engineer, and Mobile / Hardware Systems Developer** pursuing a 4-year Bachelor of Computer Applications (BCA Honours, NEP curriculum, 2023�2027) at Kingston College of Science under West Bengal State University.
+I am **Ronit Goswami (RG)**, a Kolkata-based **Full-Stack Systems Architect, Laravel Engineer, and Mobile / Hardware Systems Developer** pursuing a 4-year Bachelor of Computer Applications (BCA Honours, NEP curriculum, 2023–2027) at Kingston College of Science under West Bengal State University.
 
 Beyond academia, I have architected and deployed **3 commercial client solutions in live production** and engineered complex **multi-tenant SaaS platforms**. My engineering bridges high-concurrency backend development (PHP 8.2+, Laravel 11/12, MySQL 8.0/9.0, REST APIs) with cross-platform mobile apps (Flutter / Dart) and hardware-level IoT protocols (80mm ESC/POS thermal printing over Bluetooth BLE, USB OTG, and TCP/IP Socket Port 9100).
 
-- ?? **Location**: Kolkata, West Bengal, India
-- ?? **Education**: BCA (Honours), Kingston College of Science (WBSU) � Expected 2027
-- ?? **Live Portfolio**: [rgcreators.netlify.app](https://rgcreators.netlify.app/)
-- ?? **Direct Contact**: [rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)
-- ?? **Primary Specializations**: Multi-Tenant SaaS, Point-of-Sale (POS) & Restaurant Management (RMS), Hardware ESC/POS Integration, E-Commerce Architectures, EMR/Clinical Systems.
+- 📍 **Location**: Kolkata, West Bengal, India
+- 🎓 **Education**: BCA (Honours), Kingston College of Science (WBSU) — Expected 2027
+- 🌐 **Live Portfolio**: [rgcreators.netlify.app](https://rgcreators.netlify.app/)
+- ✉️ **Direct Contact**: [rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)
+- 🚀 **Primary Specializations**: Multi-Tenant SaaS, Point-of-Sale (POS) & Restaurant Management (RMS), Hardware ESC/POS Integration, E-Commerce Architectures, EMR/Clinical Systems.
 
 ---
 
-### ?? Live Production Flagships & Commercial Deployments
+### 🚀 Live Production Flagships & Commercial Deployments
 
-#### 1. ??? Multi-Tenant Cloud POS & Restaurant Management SaaS (RMS OS)
+#### 1. 🍽️ Multi-Tenant Cloud POS & Restaurant Management SaaS (RMS OS)
 - **Showcase Repository**: [`RG-Creators/cloud-pos-saas-showcase`](https://github.com/RG-Creators/cloud-pos-saas-showcase)
 - **Live Client Production**: Deployed at **[visticafeandrestaurant.com](https://visticafeandrestaurant.com)**
 - **System Architecture**:
@@ -55,33 +55,33 @@ Beyond academia, I have architected and deployed **3 commercial client solutions
   - Commission-free direct customer QR table ordering and digital payment settlements.
   - Real-time table occupancy status, inventory depletion ledger, staff QR biometric attendance, and automated payroll calculations.
 
-#### 2. ? Visti Cafe & Restaurant � Production POS & Online Ordering Platform
+#### 2. ☕ Visti Cafe & Restaurant — Production POS & Online Ordering Platform
 - **Public Showcase**: [`RG-Creators/visti-cafe-pos-showcase`](https://github.com/RG-Creators/visti-cafe-pos-showcase)
 - **Live Website**: [visticafeandrestaurant.com](https://visticafeandrestaurant.com)
 - Full-stack production restaurant management engine handling dine-in table sessions, takeout ticketing, and live Flutter Android POS operations.
 
-#### 3. ?? Mehta Prime Capital � Dynamic Financial Advisory CMS & Lead CRM
+#### 3. 📈 Mehta Prime Capital — Dynamic Financial Advisory CMS & Lead CRM
 - **Public Showcase**: [`RG-Creators/mehtaprimecapital-showcase`](https://github.com/RG-Creators/mehtaprimecapital-showcase)
 - **Live Portal**: [mehtaprimecapital.in](https://mehtaprimecapital.in)
 - Full-stack Laravel 11 dynamic portal and administrative lead management CRM for financial planning, loan underwriting advisory, and client inquiries.
 
 ---
 
-### ?? Commercial SaaS Platforms (Public Showcase Track)
+### 💼 Commercial SaaS Platforms (Public Showcase Track)
 
 Public showcase repositories for commercial platforms, auto-synchronized via GitHub Actions CI/CD with private core engines:
 
 | Repository | Focus & Domain | Tech Stack | Status |
 |:---|:---|:---|:---|
-| [**smart-attendance-system-showcase**](https://github.com/RG-Creators/smart-attendance-system-showcase) | Multi-Tenant Institution & Multi-Branch Corporate Workforce Attendance SaaS | PHP 8.2 � MySQL � Multi-Tenant RBAC | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/smart-attendance-system-showcase) |
-| [**blenderhub-lms-showcase**](https://github.com/RG-Creators/blenderhub-lms-showcase) | 3D Digital Asset Marketplace & Video Course Learning Management System | Core PHP � Blender Pipeline � MySQL | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/blenderhub-lms-showcase) |
-| [**cloud-pos-saas-showcase**](https://github.com/RG-Creators/cloud-pos-saas-showcase) | Multi-Tenant Cloud POS, RMS, Parallel 3-Printer Bridge & Staff Payroll | Laravel 11 � Flutter � ESC/POS Socket | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/cloud-pos-saas-showcase) |
-| [**visti-cafe-pos-showcase**](https://github.com/RG-Creators/visti-cafe-pos-showcase) | Production Restaurant POS & Commission-Free Ordering Suite | Laravel � Flutter � ESC/POS Thermal | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/visti-cafe-pos-showcase) |
-| [**mehtaprimecapital-showcase**](https://github.com/RG-Creators/mehtaprimecapital-showcase) | Financial Advisory Web Portal & Real-Time Lead-Capture CRM | Laravel 11 � MySQL � Dynamic CMS | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/mehtaprimecapital-showcase) |
+| [**smart-attendance-system-showcase**](https://github.com/RG-Creators/smart-attendance-system-showcase) | Multi-Tenant Institution & Multi-Branch Corporate Workforce Attendance SaaS | PHP 8.2 • MySQL • Multi-Tenant RBAC | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/smart-attendance-system-showcase) |
+| [**blenderhub-lms-showcase**](https://github.com/RG-Creators/blenderhub-lms-showcase) | 3D Digital Asset Marketplace & Video Course Learning Management System | Core PHP • Blender Pipeline • MySQL | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/blenderhub-lms-showcase) |
+| [**cloud-pos-saas-showcase**](https://github.com/RG-Creators/cloud-pos-saas-showcase) | Multi-Tenant Cloud POS, RMS, Parallel 3-Printer Bridge & Staff Payroll | Laravel 11 • Flutter • ESC/POS Socket | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/cloud-pos-saas-showcase) |
+| [**visti-cafe-pos-showcase**](https://github.com/RG-Creators/visti-cafe-pos-showcase) | Production Restaurant POS & Commission-Free Ordering Suite | Laravel • Flutter • ESC/POS Thermal | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/visti-cafe-pos-showcase) |
+| [**mehtaprimecapital-showcase**](https://github.com/RG-Creators/mehtaprimecapital-showcase) | Financial Advisory Web Portal & Real-Time Lead-Capture CRM | Laravel 11 • MySQL • Dynamic CMS | [![Public Showcase](https://img.shields.io/badge/Showcase-Public-blue?style=flat-square)](https://github.com/RG-Creators/mehtaprimecapital-showcase) |
 
 ---
 
-### ?? Open-Source & Public Portfolio Projects
+### 🌐 Open-Source & Public Portfolio Projects
 
 Production-hardened repositories demonstrating clean systems engineering, security compliance, and elegant UI/UX preservation:
 
@@ -97,7 +97,7 @@ Production-hardened repositories demonstrating clean systems engineering, securi
 
 ---
 
-### ?? Systems Architecture & Engineering Philosophy
+### 🏗️ Systems Architecture & Engineering Philosophy
 
 My engineering standard adheres to high-reliability, local-first offline resilience, and strict database transaction boundaries:
 
@@ -140,7 +140,7 @@ My engineering standard adheres to high-reliability, local-first offline resilie
 
 ---
 
-### ?? Technical Competency Matrix
+### 🛠️ Technical Competency Matrix
 
 | Domain | Technologies, Languages & Tools |
 |:---|:---|
@@ -152,7 +152,7 @@ My engineering standard adheres to high-reliability, local-first offline resilie
 
 ---
 
-### ?? Live GitHub Productivity & Stats
+### 📊 Live GitHub Productivity & Stats
 
 <div align="center">
   <table border="0">
@@ -180,7 +180,7 @@ My engineering standard adheres to high-reliability, local-first offline resilie
 
 ---
 
-### ?? Connect with Ronit Goswami
+### 🤝 Connect with Ronit Goswami
 
 <div align="center">
 
