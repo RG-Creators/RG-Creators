@@ -1,28 +1,28 @@
 <div align="center">
 
   <!-- Dynamic Animated Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,48,32,60&height=230&section=header&text=Ronit%20Goswami&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Architect%20%7C%20SaaS%20Engineer%20%7C%20Systems%20Builder&descAlignY=58&descAlign=50" width="100%" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,48,32,60&height=220&section=header&text=Ronit%20Goswami&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Engineer%20%7C%20PHP%20%26%20Laravel%20%7C%20Flutter%20%7C%20SaaS%20Architect&descAlignY=58&descAlign=50" width="100%" alt="Ronit Goswami Header" />
 
-  <!-- Animated Typing SVG Subtitle -->
-  <a href="https://github.com/RG-Creators">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=34D399&center=true&vCenter=true&width=700&lines=Full-Stack+Architect+%26+SaaS+Platform+Engineer;Creator+of+RestoPulse+Hospitality+POS+Cloud;Architecting+Zero-Downtime+Offline-First+Engines;Specialized+in+ESC%2FPOS+Thermal+Hardware+Bridges;Passionate+about+Elegant+Code+%26+Scalable+Systems" alt="Typing SVG" />
+  <!-- Animated Typing Subtitle -->
+  <a href="https://rgcreators.netlify.app/" target="_blank">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=34D399&center=true&vCenter=true&width=720&lines=Full-Stack+Developer+%26+Freelance+Software+Engineer;Architect+of+Multi-Tenant+Cloud+POS+Hospitality+OS;Delivered+3+Live+Production+Client+Deployments;Specialized+in+ESC%2FPOS+Thermal+Hardware+Bridges;Flutter+Mobile+Engineer+%26+High-Concurrency+Systems+Builder" alt="Typing SVG" />
   </a>
 
   <br/><br/>
 
-  <!-- Social & Quick Action Badges -->
+  <!-- Verified Badges & Contact Anchors -->
   <p align="center">
-    <a href="https://rg-creators.github.io/RG_Official/" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-Live%20Website-7457DC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    <a href="https://rgcreators.netlify.app/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-rgcreators.netlify.app-7457DC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
     </a>
-    <a href="mailto:rgcreatorsofficial@gmail.com">
-      <img src="https://img.shields.io/badge/Email-rgcreatorsofficial%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <a href="mailto:kcsronit@gmail.com">
+      <img src="https://img.shields.io/badge/Email-kcsronit%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://github.com/RG-Creators">
-      <img src="https://img.shields.io/badge/GitHub-RG--Creators-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GitHub-RG--Creators-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
     </a>
     <a href="https://github.com/RG-Creators/cloud-pos-saas-showcase">
-      <img src="https://img.shields.io/badge/Flagship-RestoPulse%20POS-047857?style=for-the-badge&logo=laravel&logoColor=white" alt="RestoPulse" />
+      <img src="https://img.shields.io/badge/Flagship-Cloud%20POS%20SaaS-047857?style=for-the-badge&logo=laravel&logoColor=white" alt="Cloud POS SaaS" />
     </a>
   </p>
 
@@ -30,80 +30,163 @@
 
 ---
 
-### 👨‍💻 Executive Summary
+### 👨‍💻 Professional Summary & Executive Bio
 
-> *"Engineering high-concurrency SaaS solutions, bulletproof offline-first architectures, and frictionless user experiences that empower businesses to scale."*
+I am **Ronit Goswami (RG)**, a Kolkata-based Full Stack Developer, Laravel Engineer, and Flutter Mobile Developer pursuing a 4-year Bachelor of Computer Applications (BCA Honours, NEP curriculum, 2023–2027) at Kingston College of Science under West Bengal State University.
 
-I am **Ronit Goswami**, a full-stack engineer and software architect specializing in **cloud SaaS architectures**, **multi-tenant ERP/POS systems**, and **hardware-to-software integrations**. My work bridges robust backend engines (Laravel, PHP 8.3+, MySQL, Redis) with ultra-responsive frontend frameworks (Alpine.js, Tailwind CSS, Vue.js) and hardware protocols (ESC/POS thermal printing over USB, Bluetooth BLE, and TCP/IP LAN).
+Beyond academia, I have architected and deployed **3 commercial client solutions** and engineered complex **multi-tenant SaaS platforms**. My engineering experience bridges full-stack backend development (PHP 8.3+, Laravel 13, MySQL, REST APIs) with cross-platform mobile apps (Flutter / Dart) and hardware-level IoT protocols (80mm ESC/POS thermal printing over Bluetooth BLE, USB OTG, and TCP/IP LAN Port 9100).
 
-- 🔭 **Current Focus**: Architecting and maintaining **RestoPulse Cloud POS** — an enterprise-grade hospitality operating system with offline-first state synchronization, kitchen display systems (KDS), and automated billing.
-- ⚡ **Core Philosophy**: Zero-downtime reliability, rigorous verification testing, strict monetary integer arithmetic (paise precision), and clean, self-documenting code.
-- 🌱 **Continuous Learning**: Advanced distributed systems, real-time WebSockets, microservices scalability, and cloud infrastructure orchestration.
-
----
-
-### 🛠️ Technical Arsenal
-
-<div align="center">
-
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Backend & SaaS** | ![PHP](https://img.shields.io/badge/PHP_8.3+-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel_13-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **Frontend & UX** | ![JavaScript](https://img.shields.io/badge/JavaScript_ESNext-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=flat-square&logo=alpinedotjs&logoColor=black) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Livewire](https://img.shields.io/badge/Livewire-FB70A9?style=flat-square&logo=livewire&logoColor=white) |
-| **Databases & Cache** | ![MySQL](https://img.shields.io/badge/MySQL_8.0-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) |
-| **Hardware & IoT Protocols** | ![ESC/POS](https://img.shields.io/badge/ESC%2FPOS-Thermal_Printing-059669?style=flat-square) ![Bluetooth](https://img.shields.io/badge/Bluetooth_BLE-Raw_ByteStream-0082FC?style=flat-square&logo=bluetooth&logoColor=white) ![TCP/IP](https://img.shields.io/badge/TCP%2FIP_LAN_9100-Raw_Socket-F59E0B?style=flat-square) ![KDS](https://img.shields.io/badge/KDS-Live_Kitchen_Display-8B5CF6?style=flat-square) |
-| **DevOps & Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Razorpay](https://img.shields.io/badge/Razorpay-Gateway_API-0C2340?style=flat-square) |
-
-</div>
+- 📍 **Location**: Kolkata, West Bengal, India
+- 🎓 **Education**: BCA (Honours), Kingston College of Science (WBSU) &middot; Expected Graduation: 2027
+- 🏫 **Schooling**: Kendriya Vidyalaya Adra (Class X: 89%, Class XII: 64%)
+- 🌐 **Live Portfolio**: [rgcreators.netlify.app](https://rgcreators.netlify.app/)
+- 📬 **Direct Contact**: [kcsronit@gmail.com](mailto:kcsronit@gmail.com)
+- 💼 **Primary Domains**: Multi-Tenant SaaS, Point-of-Sale (POS) Engines, Restaurant Management Systems (RMS), Real-Time Hardware Bridges, Financial Client Portals.
 
 ---
 
-### 🚀 Featured Flagship Architecture
+### 🏆 Delivered Client Deployments (3 Production Projects)
 
 <table>
-  <tr>
-    <td width="60%">
-      <h3>🍽️ RestoPulse — Hospitality Operating System & Cloud POS</h3>
-      <p>A mission-critical, enterprise multi-tenant Restaurant POS & Management SaaS built for high-throughput counters, dine-in floor plans, and multi-branch franchise brands.</p>
-      <ul>
-        <li><b>Offline-First POS Engine:</b> Full operation continuity with IndexedDB local caching, offline receipt queueing, and bi-directional atomic cloud sync.</li>
-        <li><b>Universal Thermal Hardware Bridge:</b> Native raw ESC/POS protocol compilation supporting Bluetooth BLE, USB, and LAN TCP 9100 printers.</li>
-        <li><b>Split Kitchen Dispatch:</b> Real-time Kitchen Order Tickets (KOT) with automated routing to bar, kitchen, and bakery KDS screens.</li>
-        <li><b>SaaS Subscription Engine:</b> Tiered SaaS monetization (Solo, Starter, Growth, Pro) with Razorpay gateway, GST compliance, and sales commission attribution.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/RG-Creators/cloud-pos-saas-showcase"><b>Explore Showcase Repository &rarr;</b></a>
-      </p>
-    </td>
-    <td width="40%" align="center">
-      <img src="images/restaurant_web.png" alt="RestoPulse Preview" width="100%" style="border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);" />
-    </td>
-  </tr>
+  <thead>
+    <tr>
+      <th width="35%">Client Project</th>
+      <th width="40%">Architecture & Capabilities</th>
+      <th width="25%">Tech Stack & Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>🍽️ Visti Cafe & Restaurant</b><br/>
+        <i>Complete Restaurant Management System & Flutter App</i><br/>
+        <code>visticafeandrestaurant.com</code>
+      </td>
+      <td>
+        <ul>
+          <li><b>High-Throughput Counter POS:</b> Table management, live billing, dine-in / takeaway split orders.</li>
+          <li><b>Kitchen Display System (KDS):</b> Real-time split KOT routing separating bar and kitchen tickets.</li>
+          <li><b>Flutter Mobile App:</b> Android application for tableside waiter ordering and owner management.</li>
+          <li><b>Hardware Thermal Printing:</b> 80mm ESC/POS printer integration via Bluetooth BLE and LAN TCP/IP port 9100.</li>
+          <li><b>Operations:</b> Inventory, daily food stock, staff QR attendance, and role-based permissions.</li>
+        </ul>
+      </td>
+      <td>
+        <span style="color:#047857;"><b>● Live Client System</b></span><br/><br/>
+        PHP &bull; MySQL &bull; Flutter &bull; Dart &bull; JavaScript &bull; REST APIs &bull; ESC/POS
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>📈 Mehta Prime Capital</b><br/>
+        <i>Financial Markets & Trading Portal</i><br/>
+        <code>mehtaprimecapital.in</code>
+      </td>
+      <td>
+        <ul>
+          <li><b>Interactive Business Portal:</b> Corporate presentation for trading and financial services firm.</li>
+          <li><b>Client Engagement CRM:</b> Real-time prospective client enquiry management and lead capture.</li>
+          <li><b>Real-Time Web Alerts:</b> Push/web notification system for incoming market queries.</li>
+          <li><b>Internal Automation:</b> Administrative control panel and employee daily attendance management.</li>
+          <li><b>Search Visibility:</b> Full SEO architecture and Google Search Console optimization.</li>
+        </ul>
+      </td>
+      <td>
+        <span style="color:#047857;"><b>● Live Client System</b></span><br/><br/>
+        PHP &bull; MySQL &bull; HTML5 &bull; CSS3 &bull; JavaScript &bull; SEO
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>⚽ SheSports</b><br/>
+        <i>Sports Web Platform & Community</i><br/>
+        <code>shesports.online</code>
+      </td>
+      <td>
+        <ul>
+          <li><b>Full-Stack Platform Delivery:</b> Delivered complete dynamic web platform for dedicated women's sports events and community coverage.</li>
+          <li><b>Content & Media Workflow:</b> News feed management, schedule updates, and interactive community modules.</li>
+          <li><b>Client Handover:</b> Successfully completed and deployed to production.</li>
+        </ul>
+      </td>
+      <td>
+        <span style="color:#6B7280;"><b>● Delivered Project</b></span><br/><br/>
+        PHP &bull; MySQL &bull; Responsive CSS &bull; JavaScript &bull; Shared Hosting
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ---
 
-### 📊 GitHub Productivity & Live Metrics
+### 🚀 Flagship Product & SaaS Engineering
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=RG-Creators&theme=onedark&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
-</div>
+#### 1. Cloud POS — Multi-Tenant Hospitality Operating System
+> **Public Architecture Showcase**: [github.com/RG-Creators/cloud-pos-saas-showcase](https://github.com/RG-Creators/cloud-pos-saas-showcase)
 
-<br/>
+A commercial-grade multi-tenant restaurant management SaaS engineered for scalable franchise and single-outlet operations:
+- **Offline-First Resilience**: Local data caching via browser storage with bi-directional atomic cloud sync to ensure billing never stops during internet dropouts.
+- **Multi-Tenant Isolation**: Tenant-aware middleware, anti-IDOR perimeter checks, and schema integrity across tenant accounts.
+- **Hardware Print Queue**: Asynchronous parallel ESC/POS receipt generation across Bluetooth BLE, USB, and LAN network ports.
+- **Monetization & Invoicing**: Tiered subscription lifecycle (Solo, Starter, Growth, Pro), Razorpay checkout integration, automated GST tax invoice generation (SAC 998313), and employee referral commission ledger.
+
+#### 2. Universal Appointment Booking SaaS *(Product Concept)*
+- Centralized scheduling engine for service businesses (clinics, salons, wellness centres).
+- Dynamic booking forms, dynamic calendar slot allocation, merchant analytics, and automated reminders.
+
+#### 3. Food Delivery Platform *(Architecture & Planning)*
+- Tri-party ecosystem integrating **Customer App**, **Restaurant Partner App**, and **Rider App**.
+- Real-time GPS location tracking, geofencing, route calculations, and unified integration with Cloud POS for zero-friction order acceptance.
+
+#### 4. DevPulse AI *(Architecture & Concept)*
+- Local-first developer assistant powered by Google Gemini API with a strict **read-only** safety model to assist with code navigation without destructive filesystem modifications. Built with Tauri, React, Rust, and FastAPI.
+
+---
+
+### 🛠️ Comprehensive Technical Competency Matrix
+
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Backend & SaaS Architecture** | **PHP 8.3 / 8.4**, **Laravel 13**, Core PHP (OOP), RESTful API Engineering, Multi-Tenant Database Isolation, RBAC (Role-Based Access Control), Razorpay Payment Gateway, Webhooks |
+| **Mobile Application Development** | **Flutter**, **Dart**, Android Studio, Cross-Platform UI, WebView Integration, Native Permissions, Bluetooth BLE Communication |
+| **Frontend & UI Engineering** | **JavaScript (ESNext)**, **Tailwind CSS**, Alpine.js, Livewire, HTML5, CSS3, Responsive Design, Mobile-First UI/UX |
+| **Database Management & SQL** | **MySQL 8.0 / 9.1**, **Oracle PL/SQL** (Stored Procedures, Functions, Triggers, Cursors, Packages), SQLite, Relational Normalization, Index Optimization |
+| **Hardware & IoT Protocols** | **ESC/POS 80mm Thermal Printing**, Raw ByteStream Generation, Bluetooth BLE, TCP/IP Socket (Port 9100), Android USB OTG, Split KOT Routing |
+| **Deployment & Cloud Operations** | Linux / Ubuntu, Hostinger hPanel, Apache, LiteSpeed Cache, Nginx, Git, GitHub Actions CI/CD, SSL/TLS, Google Search Console, SEO |
+| **Other Languages & Tools** | Python, Java (Academic OOP), CustomTkinter, Postman, Composer, WAMP / XAMPP, VS Code |
+
+---
+
+### 📜 Certifications & Industry Training
+
+- **IBM SkillsBuild**: Web Development, Python Programming, AI Fundamentals, Machine Learning & Cloud Computing.
+- **MSME (Govt. of India)**: Oracle PL/SQL Hands-on Professional Training (Advanced Stored Procedures, Triggers, Packages & Cursors).
+- **IBM 3-Day Immersion Program**: Industry expert sessions and hands-on software workshops.
+- **Student Ambassador Program 2026**: Shortlisted candidate.
+
+---
+
+### 📊 Live GitHub Productivity & Repository Analytics
 
 <div align="center">
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=RG-Creators&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=34d399&text_color=e2e8f0" alt="GitHub Stats" width="420" />
+        <a href="https://github.com/RG-Creators">
+          <img src="https://github-readme-stats.vercel.app/api?username=RG-Creators&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=34d399&text_color=e2e8f0" alt="GitHub Stats" width="410" />
+        </a>
       </td>
       <td>
-        <img src="https://streak-stats.demolab.com/?user=RG-Creators&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f59e0b&currStreakLabel=38bdf8" alt="Streak Stats" width="420" />
+        <a href="https://github.com/RG-Creators">
+          <img src="https://streak-stats.demolab.com/?user=RG-Creators&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f59e0b&currStreakLabel=38bdf8" alt="GitHub Streak" width="410" />
+        </a>
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RG-Creators&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0" alt="Top Languages" width="420" />
+        <a href="https://github.com/RG-Creators">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RG-Creators&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0" alt="Top Languages" width="410" />
+        </a>
       </td>
     </tr>
   </table>
@@ -111,18 +194,27 @@ I am **Ronit Goswami**, a full-stack engineer and software architect specializin
 
 ---
 
-### 🤝 Let's Connect & Build Together
+### 🤝 Connect with Ronit Goswami
 
 <div align="center">
 
-  [![Website](https://img.shields.io/badge/Personal_Portfolio-7457DC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rg-creators.github.io/RG_Official/)
-  [![Email](https://img.shields.io/badge/Direct_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rgcreatorsofficial@gmail.com)
-  [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RG-Creators)
+  <a href="https://rgcreators.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Portfolio-rgcreators.netlify.app-7457DC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+  </a>
+  &nbsp;
+  <a href="mailto:kcsronit@gmail.com">
+    <img src="https://img.shields.io/badge/Email-kcsronit%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/RG-Creators">
+    <img src="https://img.shields.io/badge/GitHub-RG--Creators-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 
-  <br/>
+  <br/><br/>
   
-  <p><i>"Code with purpose. Build for scale. Deliver excellence."</i></p>
+  <p><i>"Practical engineering over theory. Scalable architecture over quick hacks. Building technology that empowers real businesses."</i></p>
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,48,32,60&height=120&section=footer" width="100%" alt="Footer" />
+  <!-- Dynamic Animated Footer Wave -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,48,32,60&height=120&section=footer" width="100%" alt="Footer Wave" />
 
 </div>
