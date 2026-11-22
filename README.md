@@ -48,7 +48,6 @@ Beyond academia, I have architected and deployed **3 commercial client solutions
 
 #### 1. 🍽️ Multi-Tenant Cloud POS & Restaurant Management SaaS (RMS OS)
 - **Showcase Repository**: [`RG-Creators/cloud-pos-saas-showcase`](https://github.com/RG-Creators/cloud-pos-saas-showcase)
-- **Live Client Production**: Deployed at **[visticafeandrestaurant.com](https://visticafeandrestaurant.com)**
 - **System Architecture**:
   - Multi-tenant database tenancy isolation supporting multi-outlet restaurant chains with zero cross-tenant contamination.
   - **Parallel 3-Printer Dispatch Engine**: Dispatches split thermal receipts simultaneously across `BKOT` (Bar KOT), `KKOT` (Kitchen KOT), and `BILL` (Customer Invoice) over Bluetooth BLE, USB OTG, and TCP/IP LAN Socket (Port 9100).
